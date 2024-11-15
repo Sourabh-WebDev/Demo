@@ -219,7 +219,7 @@ const Index = () => {
               <div className="content">
                 <h4>GIS Application Development​</h4>
                 <p>
-                  <Link href="/course-details">
+                  <Link href="/gis-App-development">
                     Businesses struggle to attract global customers without accurate mapping. Our expertise in QGIS, Mapbox, and more ensures precise integration.
                   </Link>
                 </p>
@@ -459,7 +459,7 @@ const Index = () => {
               <div className="content">
                 <h4>GIS Application Development​</h4>
                 <p>
-                  <Link href="/course-details">
+                  <Link href="/gis-App-development">
                     Customize your current GIS platform with required modules and compilations.
                   </Link>
                 </p>

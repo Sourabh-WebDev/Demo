@@ -105,8 +105,8 @@ const About = () => {
       <section className="features-section-three rel z-1 pt-110 rpt-85 pb-100 rpb-70">
         <div className="container">
           <div className="section-title text-center mb-55">
-            <span className="sub-title-two">Why ApexPath​</span>
-            <h2>Opportunity for Online Learning</h2>
+            {/* <span className="sub-title-two">Why ApexPath​</span> */}
+            <h2>Why ApexPath</h2>
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-3 col-sm-6">
@@ -407,7 +407,7 @@ const About = () => {
             <div className="col-lg-6">
               <div className="why-learn-content rmb-35">
                 <div className="section-title mb-30">
-                  <span className="sub-title-two">Why Learn Us</span>
+                  <span className="sub-title-two">With ApexPath</span>
                   <h2> OUR MISSION </h2>
                 </div>
                 <p>
