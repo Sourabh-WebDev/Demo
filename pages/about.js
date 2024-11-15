@@ -105,7 +105,7 @@ const About = () => {
       <section className="features-section-three rel z-1 pt-110 rpt-85 pb-100 rpb-70">
         <div className="container">
           <div className="section-title text-center mb-55">
-            <span className="sub-title-two">How About Learn Us</span>
+            <span className="sub-title-two">Why ApexPath​</span>
             <h2>Opportunity for Online Learning</h2>
           </div>
           <div className="row justify-content-center">
@@ -114,9 +114,9 @@ const About = () => {
                 <div className="icon">
                   <i className="flaticon-reading-book" />
                 </div>
-                <h4>Experts Minds</h4>
+                <h4>A quality-first company ​</h4>
                 <p>
-                  Apexpath are a technology  Our Mission is to provide best and innovative IT and Software solutions to current industry and user needs.
+                  We provide only high-quality software and services to our clients. We guarantee you will get tangible business value from your IT investments, enjoy healthy project processes, professional and motivated teams, effective communication between Apex path, your teams, and stakeholders.
                 </p>
                 <Link href="/about">
                   <a className="details-btn">
@@ -130,10 +130,9 @@ const About = () => {
                 <div className="icon">
                   <img src="assets/images/features/icon7.png" alt="Icon" />
                 </div>
-                <h4>Multiple Courses</h4>
+                <h4>Top-notch security ​</h4>
                 <p>
-                  Apexpath are a technology Sed ut persiciatis omnis natus voluptate accsantie doloreue
-                  laudantium
+                  we prioritize providing top-notch security solutions that safeguard your data with advanced encryption and robust authentication protocols. Our team of experts continuously enhances our systems to stay ahead of evolving threats, ensuring that your applications are secure, scalable, and reliable.
                 </p>
                 <Link href="/about">
                   <a className="details-btn">
@@ -147,10 +146,9 @@ const About = () => {
                 <div className="icon">
                   <img src="assets/images/features/icon8.png" alt="Icon" />
                 </div>
-                <h4>Hire Quickly</h4>
+                <h4>Fast development while retaining application stability ​</h4>
                 <p>
-                  Apexpath are a technology Sed ut persiciatis omnis natus voluptate accsantie doloreue
-                  laudantium
+                  Fast and steady, our code takes flight, In agile sprints through day and night. We craft with care, each line precise, For software stable, strong, concise.
                 </p>
                 <Link href="/about">
                   <a className="details-btn">
@@ -164,9 +162,9 @@ const About = () => {
                 <div className="icon">
                   <img src="assets/images/features/icon9.png" alt="Icon" />
                 </div>
-                <h4>Video Tutorials</h4>
+                <h4>Commitment to excellence ​</h4>
                 <p>
-                  Apexpath has a large pool of top IT professionals with a collective approach of a team as a whole. We mainly abide by the concept of synergy effect & focus on bringing out the best of our outputs for the satisfaction of our customers.
+                  We think outside the box to bring additional value to our customers and improve their performance with our comprehensive IT services and robust solutions​.
                 </p>
                 <Link href="/about">
                   <a className="details-btn">
@@ -416,47 +414,12 @@ const About = () => {
                 </p>
                 <div className="why-learn-feature pt-30">
                   <div className="row">
-                    <div className="col-sm-6">
-                      <div className="feature-three-item">
-                        <div className="icon">
-                          <img
-                            src="assets/images/features/icon10.png"
-                            alt="Icon"
-                          />
-                        </div>
-                        <h4>Expert Advisors</h4>
-                        <p>
-                          Team Apexpath  is a focused, dynamic and  progressive group, providing customers with value added products,
-                          services and innovative solution. The group has collaborated with global technology leaders & has 10 associate partners.
-                        </p>
-                        <Link href="/about">
-                          <a className="read-more color-two">
-                            Read more <i className="fas fa-arrow-right" />
-                          </a>
-                        </Link>
-                      </div>
+                    <div className="col-12">
+                      <p>Our overarching goal at ApexPath is to be the catalyst for businesses' success by delivering world-class software solutions that redefine possibilities.
+
+                        We aim to empower organizations with transformative tools that enhance their status, elevate their operations, and set new benchmarks for excellence.​</p>
                     </div>
-                    <div className="col-sm-6">
-                      <div className="feature-three-item">
-                        <div className="icon">
-                          <img
-                            src="assets/images/features/icon11.png"
-                            alt="Icon"
-                          />
-                        </div>
-                        <h4>Popular Courses</h4>
-                        <p>
-                          Team Apexpath  is a focused, dynamic and  progressive group,
-                          providing customers with value added products, services and innovative solution.
-                          The group has collaborated with global technology leaders & has 10 associate partners.
-                        </p>
-                        <Link href="/about">
-                          <a className="read-more color-two">
-                            Read more <i className="fas fa-arrow-right" />
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
+
                   </div>
                 </div>
               </div>

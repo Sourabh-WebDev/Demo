@@ -365,7 +365,8 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                   <Link href="/">
                     <a>
                       <img
-                        height={120}
+                        // height={120}
+                        width={200}
                         src="assets/images/newweb/newLogo.png"
                         alt="Logo"
                         title="Logo"

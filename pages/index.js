@@ -12,21 +12,20 @@ const Index = () => {
           <div className="row large-gap">
             <div className="col-lg-6 align-self-end">
               <div className="hero-three-image-part">
-                <img src="assets/images/hero/hero-three-man.png" alt="Hero" />
-                <div className="hero-chart wow fadeInUp delay-0-2s">
+                <img src="assets/images/hero/robot.png" alt="Hero" />
+                {/* <div className="hero-chart wow fadeInUp delay-0-2s">
                   <img height={100} src="assets/images/Satisfy-Work.png" alt="Chart" />
                   <h5>99% Satisfy Work</h5>
-                </div>
+                </div> */}
                 <div className="hero-over-text">
-                  <div className="about-image-over-item wow fadeInRight delay-0-2s">
+                  {/* <div className="about-image-over-item wow fadeInRight delay-0-2s">
                     <img src="assets/images/about/icon1.png" alt="Icon" />
                     <h5>Experienced Developers</h5>
-                  </div>
-                  <div className="about-image-over-item wow fadeInLeft delay-0-2s">
+                  </div> */}
+                  {/* <div className="about-image-over-item wow fadeInLeft delay-0-2s">
                     <img height={30} width={30} src="assets/images/Quality-Icon.png" alt="Icon" />
-
                     <h5>Quality Websites</h5>
-                  </div>
+                  </div> */}
                 </div>
                 <img
                   className="hero-circle"
@@ -206,7 +205,7 @@ const Index = () => {
                 <h4>Software Development Solutions​</h4>
                 <p>
                   <Link href="/course-details">
-                  Outdated software prevents business growth. Our experts implement latest tools like ReactJS, NodeJS, and more to create powerful, responsive solutions.​
+                    Outdated software prevents business growth. Our experts implement latest tools like ReactJS, NodeJS, and more to create powerful, responsive solutions.
                   </Link>
                 </p>
 
@@ -221,7 +220,7 @@ const Index = () => {
                 <h4>GIS Application Development​</h4>
                 <p>
                   <Link href="/course-details">
-                  Businesses struggle to attract global customers without accurate mapping. Our expertise in QGIS, Mapbox, and more ensures precise integration.​
+                    Businesses struggle to attract global customers without accurate mapping. Our expertise in QGIS, Mapbox, and more ensures precise integration.
                   </Link>
                 </p>
 
@@ -236,7 +235,7 @@ const Index = () => {
                 <h4>Database Management​</h4>
                 <p>
                   <Link href="/course-details">
-                  ApexPath uses the latest database software to perform web scraping, Database Management, data extraction, and data analysis using advanced DBMS tools.
+                    ApexPath uses the latest database software to perform web scraping, Database Management, data extraction, and data analysis using advanced DBMS tools.
                   </Link>
                 </p>
 
@@ -251,7 +250,7 @@ const Index = () => {
                 <h4>Blockchain technology​</h4>
                 <p>
                   <Link href="/course-details">
-                  Our experts have deployed blockchain technologies across a range of industries, working with NFT marketplaces, DeFi services and more to build secure and efficient solutions.
+                    Our experts have deployed blockchain technologies across a range of industries, working with NFT marketplaces, DeFi services and more to build secure and efficient solutions.
                   </Link>
                 </p>
 
@@ -274,10 +273,10 @@ const Index = () => {
                   </h2>
                 </div>
                 <p>
-                  Before the grand tale of ApexPath's global reach, this center was a beacon of hope. With a heart full of passion, the journey began to provide students with the gift of computer education at rates that spoke of inclusivity. It was a place where futures were shaped, where the complexities of technology were unraveled, and where dreams were nurtured.{" "}
+                  We are a global leader in Digital Transformation, offering comprehensive solutions that empower enterprises to thrive in the modern digital landscape. With the seismic shift brought by Digital Transformation, we understand that it goes beyond mere technology adoption..{" "}
                 </p>
                 <ul className="list-style-four pt-5 pb-35">
-                  <li>Best Instructor &amp; Best Programs</li>
+                  <li>Best Designer &amp; Best Developer</li>
                   <li>100% ISO Certified Gruentee</li>
                 </ul>
                 <Link href="/about">
@@ -302,6 +301,7 @@ const Index = () => {
                 <div className="saticfiction bg-green br-5 text-white">
                   <span className="counter-number">
                     <span />
+                    <img height={100} src="assets/images/Satisfy-Work.png" alt="Chart" />
                   </span>
                   <h4>99% satisfied Customers</h4>
                 </div>
@@ -820,100 +820,57 @@ const Index = () => {
       <section className="blog-section pt-120 rpt-90 pb-100 rpb-70">
         <div className="container">
           <div className="section-title text-center mb-70">
-            <span className="sub-title-two">Latest News &amp; Blog</span>
+            <span className="sub-title-two"> Our Customers Say </span>
             <h2>
-              Learn Every News <span>&amp; Blog</span>
+              <span>Testimonial</span>
             </h2>
           </div>
           <div className="row">
             <div className="col-lg-4 col-md-6">
-              <div className="blog-item style-two middle-image wow fadeInUp delay-0-2s">
-                <h4>
-                  <Link href="/blog-details">
-                    Designing Better Link Web Site and Emailsite
-                  </Link>
-                </h4>
-                <ul className="blog-meta">
-                  <li>
-                    <i className="far fa-user" />{" "}
-                    <Link href="/blog">By Somalia</Link>
-                  </li>
-                  <li>
-                    <i className="far fa-comments" />{" "}
-                    <Link href="/blog">Comments (5)</Link>
-                  </li>
-                </ul>
-                <div className="blog-image">
-                  <img src="assets/images/blog/blog-two4.jpg" alt="Blog" />
-                  <span className="date">
-                    March <span>15</span>
-                  </span>
-                </div>
-                <Link href="/blog-details">
-                  <a className="read-more">
-                    Read more <i className="fas fa-arrow-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
               <div className="blog-item style-two middle-image wow fadeInUp delay-0-4s">
                 <h4>
                   <Link href="/blog-details">
-                    Variables In The Hugo Seen Static Sitegen
+                    Outstanding Customer Support and Innovation
                   </Link>
                 </h4>
                 <ul className="blog-meta">
-                  <li>
-                    <i className="far fa-user" />{" "}
-                    <Link href="/blog">By Somalia</Link>
-                  </li>
-                  <li>
-                    <i className="far fa-comments" />{" "}
-                    <Link href="/blog">Comments (5)</Link>
-                  </li>
+                  <p>"We’ve been working with ApexPath for over a year, and their dedication to customer support is unmatched. Not only did they deliver a solution that met our specific requirements, but they also continue to innovate and offer new features that add value to our business. The team listens to feedback and is quick to implement changes. It’s refreshing to work with a company that genuinely cares about our success."</p>
                 </ul>
-                <div className="blog-image">
-                  <img src="assets/images/blog/blog-two5.jpg" alt="Blog" />
-                  <span className="date">
-                    March <span>15</span>
-                  </span>
-                </div>
-                <Link href="/blog-details">
                   <a className="read-more">
-                    Read more <i className="fas fa-arrow-right" />
+                    Sarah M., Operations Manager
                   </a>
-                </Link>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="blog-item style-two middle-image wow fadeInUp delay-0-2s">
+                <h4>
+                  <Link href="/blog-details">
+                    Increased Efficiency and Streamlined Processes
+                  </Link>
+                </h4>
+                <ul className="blog-meta">
+                  <p>"The software solutions provided by ApexPath have significantly improved our operational efficiency. With their customized tools, we’ve been able to streamline processes that used to take hours into tasks that now take minutes. The team is responsive and truly understands our business needs. I highly recommend ApexPath for anyone looking to optimize their workflow and maximize productivity!"</p>
+                </ul>
+                  <a className="read-more">
+                  John D., IT Director
+                  </a>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="blog-item style-two middle-image wow fadeInUp delay-0-6s">
                 <h4>
                   <Link href="/blog-details">
-                    Complete Gude Switch From HTTP To HTTPS
+                    Reliable, Scalable, and Cost-Effective
                   </Link>
                 </h4>
                 <ul className="blog-meta">
-                  <li>
-                    <i className="far fa-user" />{" "}
-                    <Link href="/blog">By Somalia</Link>
-                  </li>
-                  <li>
-                    <i className="far fa-comments" />{" "}
-                    <Link href="/blog">Comments (5)</Link>
-                  </li>
+                  <p>
+                    "Switching to ApexPath’s platform was one of the best decisions we’ve made. Their software is both reliable and scalable, which has allowed us to grow without worrying about outgrowing our tools. The pricing is fair and transparent, with no hidden costs. We feel confident that ApexPath is a partner in our growth and not just another vendor."
+                  </p>
                 </ul>
-                <div className="blog-image">
-                  <img src="assets/images/blog/blog-two6.jpg" alt="Blog" />
-                  <span className="date">
-                    March <span>15</span>
-                  </span>
-                </div>
-                <Link href="/blog-details">
                   <a className="read-more">
-                    Read more <i className="fas fa-arrow-right" />
+                  Emily L., CEO
                   </a>
-                </Link>
               </div>
             </div>
           </div>
