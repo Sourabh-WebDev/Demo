@@ -129,7 +129,7 @@ const FollowIcon = () => (
               </li>
 
               <li>
-                <Link href="/graphic-designing">Graphic Designg</Link>
+                <Link href="/database-mgmt">Database Management</Link>
               </li>
 
               <li>
@@ -141,20 +141,16 @@ const FollowIcon = () => (
               </li>
 
               <li>
-                <Link href="/logo-services">Logo Design Services</Link>
+                <Link href="/blockchain-development">Blockchain Technologies</Link>
               </li>
 
               <li>
-                <Link href="/logo-services">Responsive Web Design</Link>
+                <Link href="/software-development">Software Development</Link>
               </li>
 
-              <li>
+              {/* <li>
                 <Link href="/logo-services">Dynamic Web Design</Link>
-              </li>
-
-              <li>
-                <Link href="/static-design">Static Web Design</Link>
-              </li>
+              </li> */}
 
               {/* <p>
                 Apexpath are a technology driven and innovation oriented progressive company which provides a distinct platform that caters to a wide range of customers across the globe.
@@ -166,7 +162,7 @@ const FollowIcon = () => (
               </div>
             </div>
           </div>
-          <div className="col-lg-2 col-md-3 col-sm-4">
+          <div className="col-lg-3 col-md-3 col-sm-4">
             <div className="footer-widget menu-widget">
               <h5 className="footer-title text-success">Development</h5>
 
@@ -175,11 +171,11 @@ const FollowIcon = () => (
               </li>
 
               <li>
-                <Link href="/app-development"> Mobile App Dev. </Link>
+                <Link href="/app-development"> Mobile App Development </Link>
               </li>
 
               <li>
-                <Link href="/contact">ERP Development</Link>
+                <Link href="/Mern-development">MERN Development</Link>
               </li>
 
               <li>
@@ -187,15 +183,19 @@ const FollowIcon = () => (
               </li>
 
               <li>
-                <Link href="/Wordpress-development">WordPress Dev.</Link>
+                <Link href="/Wordpress-development">WordPress Development</Link>
               </li>
 
               <li>
-                <Link href="/Native-development">Native  App Dev.</Link>
+                <Link href="/Native-development">Native  App Development</Link>
               </li>
 
               <li>
-                <Link href="/webportal-development">Web Portal Dev.</Link>
+                <Link href="/webportal-development">Web Portal Development</Link>
+              </li>
+
+              <li>
+                <Link href="/gis-App-development">GIS App Development</Link>
               </li>
 
               <ul>
@@ -203,8 +203,7 @@ const FollowIcon = () => (
               </ul>
             </div>
           </div>
-
-          <div className="col-lg-2 col-md-3 col-sm-4">
+          {/* <div className="col-lg-2 col-md-3 col-sm-4">
             <div className="footer-widget menu-widget">
               <h5 className="footer-title text-success">Marketing</h5>
               <h5 className="footer-title ">Marketing</h5>
@@ -237,15 +236,15 @@ const FollowIcon = () => (
                 <Resources />
               </ul>
             </div>
-          </div>
-          <div className="col-lg-5  ">
+          </div> */}
+          <div className="col-lg-6">
             <div className="row">
               <div className="col-sm-6">
                 <div className="footer-widget contact-info-widget">
                   <h5 className="footer-title text-success">Get In Touch</h5>
                   <ul>
                     <li>
-                      <i className="fas fa-map-marker-alt" /> Bahalgadh chowk, sonipat, Haryana 131021
+                      <i className="fas fa-map-marker-alt" /> BahalGarh, khewra, Road, Sonipat, Haryana 131021
                     </li>
                     <li>
                       <i className="far fa-envelope" />{" "}
@@ -265,7 +264,7 @@ const FollowIcon = () => (
 
               <div className="col-sm-6">
                 <div className="footer-widget video-widget">
-                  <p>Quis autem vel eum iure repre enderit voluptate</p>
+                  <p>"We humbly request you to give us an opportunity to serve you."</p>
 
                   {/* <div className="video-widget overlay my-20">
                     <img src="assets/images/footer/video.jpg" alt="Video" />

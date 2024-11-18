@@ -13,13 +13,30 @@ function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
       <Head>
+        <link rel="alternate" href="https://apexpath.com/" hreflang="en-US" />
         <title>
           ApexPath || Software Solution
         </title>
+        <meta name="Keywords"
+          content="Software development,GIS application development,Web application development,Desktop application development,Mobile application development,Web scraping" />
+        <meta name="Description"
+          content="ApexPath is a team of well-recognized software development experts focusing on improving business to develop their status with world-class software solutions and applications." />
+        <meta name="Author" content="apexpath.munna@gmail.com" />
+        <link rel="canonical" href="https://apexpath.com/" />
+
+        <meta name="og:type" content="article" />
+        <meta property="og:image" content="https://apexpath.com/img/logo-top.png" />
+        <meta property="og:image:url" content="https://apexpath.com/img/logo-top.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="152" />
+        <meta property="og:description"
+          content="ApexPath is a team of well-recognized software development experts focusing on improving business to develop their status with world-class software solutions and applications. " />
+        <meta property="og:title" content="ApexPath" />
+        <meta property="og:url" content="https://apexpath.com/index.html" />
         {/*====== Favicon Icon ======*/}
         <link
           rel="shortcut icon"
-          href="assets/images/newweb/newLogo.png"
+          href="assets/images/newweb/apexpath.png"
           type="image/x-icon"
         />
         {/*====== Google Fonts ======*/}

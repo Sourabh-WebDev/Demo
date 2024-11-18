@@ -36,7 +36,7 @@ const websiteDesigning= () => {
   
   return (
       <Layout>
-          <PageBanner pageName={"Website Designing"} />
+          <PageBanner pageName={"Website Designing"} img={'assets/images/newweb/webdesigner.jpg'} />
           <section className="course-details-area pt-130 rpt-100">
               <div className="container">
                   <div className="row large-gap">

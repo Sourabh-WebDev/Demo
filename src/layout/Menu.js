@@ -14,8 +14,8 @@ const designingList = [
 
 
   {
-    id: 2, Services: "Graphic Design",
-    link: "/graphic-designing"
+    id: 2, Services: "Database Management",
+    link: "/database-mgmt"
   },
 
 
@@ -26,8 +26,8 @@ const designingList = [
 
 
   {
-    id: 4, Services: "Logo Design Service",
-    link: "/logo-services"
+    id: 4, Services: "Blockchain Technologies",
+    link: "/blockchain-development"
   },
 
 
@@ -38,13 +38,13 @@ const designingList = [
 
 
   {
-    id: 6, Services: "Content Writing Service",
-    link: "/content-services"
+    id: 6, Services: "GIS App Development",
+    link: "/gis-App-development"
   },
 
   {
-    id: 7, Services: "Static Web Design",
-    link: "/static-design"
+    id: 7, Services: "Software Development",
+    link: "/software-development"
   },
 ]
 const developmentList = [
@@ -180,8 +180,8 @@ export const Services = () => (
 
     <div style={{ overflowY: 'scroll', height: '250px' }} className="row">
 
-      <div className="col-lg-4 col-sm-12 text-center p-3 ">
-        <h4 className="text-primary">Design</h4>
+      <div className="col-lg-6 col-sm-12 text-center p-3 ">
+        <h4 className="text-primary">Design & Services</h4>
 
         {designingList.map((item, index) => (
           <li style={{ display: 'flex', justifyContent: 'center' }} key={index}>
@@ -189,7 +189,7 @@ export const Services = () => (
           </li>
         ))}
       </div>
-      <div className="col-lg-4 col-sm-12 text-center  p-3 ">
+      <div className="col-lg-6 col-sm-12 text-center  p-3 ">
         <h4 className="text-primary">Development</h4>
 
         {developmentList.map((item, index) => (
@@ -198,7 +198,7 @@ export const Services = () => (
           </li>
         ))}
       </div>
-      <div className="col-lg-4 col-sm-12 text-center p-3 ">
+      {/* <div className="col-lg-4 col-sm-12 text-center p-3 ">
         <h4 className="text-primary">Marketing</h4>
 
         {marketingList.map((item, index) => (
@@ -206,7 +206,7 @@ export const Services = () => (
             <Link href={item.link}>{item.Services}</Link>
           </li>
         ))}
-      </div>
+      </div> */}
     </div>
     {/* <li>
       <Link href="/website-designing">Website Designing</Link>

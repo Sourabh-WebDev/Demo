@@ -204,7 +204,7 @@ const Index = () => {
               <div className="content">
                 <h4>Software Development Solutions​</h4>
                 <p>
-                  <Link href="/course-details">
+                  <Link href="/software-development">
                     Outdated software prevents business growth. Our experts implement latest tools like ReactJS, NodeJS, and more to create powerful, responsive solutions.
                   </Link>
                 </p>
@@ -234,7 +234,7 @@ const Index = () => {
               <div className="content">
                 <h4>Database Management​</h4>
                 <p>
-                  <Link href="/course-details">
+                  <Link href="/database-mgmt">
                     ApexPath uses the latest database software to perform web scraping, Database Management, data extraction, and data analysis using advanced DBMS tools.
                   </Link>
                 </p>
@@ -249,7 +249,7 @@ const Index = () => {
               <div className="content">
                 <h4>Blockchain technology​</h4>
                 <p>
-                  <Link href="/course-details">
+                  <Link href="/blockchain-development">
                     Our experts have deployed blockchain technologies across a range of industries, working with NFT marketplaces, DeFi services and more to build secure and efficient solutions.
                   </Link>
                 </p>

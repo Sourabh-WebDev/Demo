@@ -367,7 +367,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                       <img
                         // height={120}
                         width={200}
-                        src="assets/images/newweb/newLogo.png"
+                        src="assets/images/newweb/apexpath.png"
                         alt="Logo"
                         title="Logo"
                       />

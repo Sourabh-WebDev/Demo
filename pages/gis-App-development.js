@@ -31,7 +31,7 @@ const gisAppDevelopment = () => {
     return (
 
         <Layout>
-            <PageBanner pageName={"GIS App Development"} img={"https://thumbs.dreamstime.com/z/open-notepad-affiliate-marketing-sketch-concept-87455335.jpg?w=992"} />
+            <PageBanner pageName={"GIS App Development"} img={"assets/images/newweb/GISS.jpg"} />
             <section className="course-details-area pt-130 rpt-100">
                 <div className="container">
                     <div className="row large-gap">
