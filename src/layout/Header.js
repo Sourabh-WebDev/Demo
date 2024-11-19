@@ -422,18 +422,18 @@ const Header1 = ({ navToggle, setNavToggle }) => (
               </div>
               {/* Menu Button */}
               <div className="menu-btn-sidebar d-flex align-items-center">
-                <form onSubmit={(e) => e.preventDefault()} action="#">
+                {/* <form onSubmit={(e) => e.preventDefault()} action="#">
                   <input type="search" placeholder="Search" required="" />
                   <button>
                     <i className="fas fa-search" />
                   </button>
-                </form>
-                <button className="cart">
+                </form> */}
+                {/* <button className="cart">
                   <i className="fas fa-shopping-bag" />
-                </button>
-                <button>
+                </button> */}
+                {/* <button>
                   <i className="far fa-user-circle" />
-                </button>
+                </button> */}
                 {/* menu sidbar */}
                 <div className="menu-sidebar" onClick={() => sidebarOnclick()}>
                   <button>
@@ -486,7 +486,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
         </div> */}
       </li>
       <li className="dropdown">
-        <a href="/blog-details">blog</a>
+        <a href="/blog">blog</a>
         {/* <ul>
           <Blog />
         </ul> */}

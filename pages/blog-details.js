@@ -33,34 +33,29 @@ const BlogDetails = () => {
                   <img src="" />
                 </div>
                 <h3 className="title">
-                  Creating Online Environments That Work Well For Older Users
+                  Getting Started with Web Development: A Beginner’s Guide
                 </h3>
                 <p>
-                  Apexpath are a technology driven and innovation oriented progressive company which provides a distinct platform that caters to a wide range of customers across the globe.
-                  maiores alias consequatu{" "}
+                  <b>Overview:</b> Introduce the basics of web development, including the difference between front-end and back-end, common languages like HTML, CSS, and JavaScript, and how to set up a simple development environment.{" "}
                 </p>
                 <p>
-                  On the other hand, we denounce with righteous indignation and
-                  dislike men who are so beguiled and demoralized by the charms
-                  of pleasure of the moment, so blinded by desire, that they
-                  cannot foresee the pain and trouble that are bound to ensue;
-                  and equal blame belongs to those who fail in their duty
-                  through weakness of will, which is the same as saying through
-                  shrinking from toil and pain.
+                  <b>Key Points: </b>
+                  Setting up a text editor (VS Code, Sublime).
+                  Creating your first "Hello, World!" webpage.
+                  Understanding client-server architecture.
                 </p>
                 <blockquote>
                   <h4>
-                    Smashing Podcast Episode Pauloag Conve Seen Overs
-                    Optimization Inspired Decisions
+                  The best way to get better at programming is to build things. Tinker with code, break it, fix it, and learn.
                   </h4>
-                  <span className="blockquote-footer">Rasalina Willamson</span>
+                  <span className="blockquote-footer">Chris Coyier</span>
                 </blockquote>
-                <p>
+                {/* <p>
                   We denounce with righteous indignation and dislike men who are
                   so beguiled and demoralized by the charms of pleasure of the
                   moment, so blinded by desire, that they cannot foresee the
                   pain and trouble that are bound to ensue
-                </p>
+                </p> */}
                 <div className="tag-share pt-10">
                   <div className="tag-coulds pb-25">
                     <h6>Tags</h6>
@@ -241,7 +236,7 @@ const BlogDetails = () => {
                     </li>
                   </ul>
                 </div>
-                <form
+                {/* <form
                   onSubmit={(e) => e.preventDefault()}
                   id="comment-form"
                   className="comment-form p-50 bg-lighter wow fadeInUp delay-0-2s"
@@ -325,7 +320,7 @@ const BlogDetails = () => {
                       </div>
                     </div>
                   </div>
-                </form>
+                </form> */}
               </div>
             </div>
             <div className="col-lg-4">

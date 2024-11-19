@@ -5,7 +5,7 @@ import Pagination from "../src/Pagination";
 const BlogStandard = () => {
   return (
     <Layout>
-      <PageBanner pageName={"Blog Standard"} />
+      <PageBanner pageName={"Our Blogs"} />
       <section className="blog-standard-area py-130 rpt-95 rpb-100">
         <div className="container">
           <div className="row">
@@ -49,11 +49,7 @@ const BlogStandard = () => {
                         </Link>
                       </h3> */}
                       <p>
-                        Apexpath are a technology driven and innovation oriented progressive company which provides a distinct platform that caters to a wide range of customers across the globe.
-                        Sit amet consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Quis
-                        ipsum suspendisse ultrices gravida. Risus commodo
-                        viverra maecenas accumsan lacus vel facilisis.{" "}
+                        Web development is an ever-evolving field, blending creativity and technology to build functional, user-friendly websites and applications. From mastering HTML, CSS, and JavaScript to exploring modern frameworks like React, the focus spans responsive design, accessibility, and performance optimization. Developers work with APIs, secure apps, and leverage tools like Git for version control. Emerging trends such as Progressive Web Apps (PWAs), serverless architectures, and AI-driven features shape the future. With a strong foundation and awareness of best practices, developers can create cutting-edge solutions that meet the demands of an increasingly digital world.{" "}
                       </p>
                       {/* <Link href="/blog-details">
                         <a className="theme-btn style-two">
@@ -96,15 +92,11 @@ const BlogStandard = () => {
                       </ul>
                       <h3>
                         <Link href="/blog-details">
-                          Google to launch Android Q Beta on Wednesday, tips leak official document: To get system-wide Dark Mode & more
+                          Getting Started with Modern Web Development
                         </Link>
                       </h3>
-                      <p>
-                        Apexpath are a technology driven and innovation oriented progressive company which provides a distinct platform that caters to a wide range of customers across the globe.
-                        Sit amet consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Quis
-                        ipsum suspendisse ultrices gravida. Risus commodo
-                        viverra maecenas accumsan lacus vel facilisis.{" "}
+                      <p><b>Overview:</b> A beginner's guide to understanding the essentials of web development today, including HTML5, CSS3, JavaScript, and popular frameworks like React and Vue.<br />
+                        <b>What to include:</b> Introduction to web development, how the web has evolved, and a step-by-step guide to building a simple web page.{" "}
                       </p>
                       <Link href="/blog-details">
                         <a className="theme-btn style-two">
@@ -147,16 +139,12 @@ const BlogStandard = () => {
                       </ul>
                       <h3>
                         <Link href="/blog-details">
-                          Everything You Need To Know About CSS Margins
-                          Optimizing Google Fonts
+                          The Power of Responsive Web Design
                         </Link>
                       </h3>
                       <p>
-                        Apexpath are a technology driven and innovation oriented progressive company which provides a distinct platform that caters to a wide range of customers across the globe.
-                        Sit amet consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Quis
-                        ipsum suspendisse ultrices gravida. Risus commodo
-                        viverra maecenas accumsan lacus vel facilisis.{" "}
+                        <b>Overview:</b> Discuss how responsive design is crucial for today's mobile-first world and how to implement it using CSS media queries, flexible layouts, and viewport units.<br />
+                        <b>What to include:</b> Code examples of a simple responsive layout, tips for testing responsiveness, and tools like Chrome DevTools.{" "}
                       </p>
                       <Link href="/blog-details">
                         <a className="theme-btn style-two">
@@ -199,16 +187,12 @@ const BlogStandard = () => {
                       </ul>
                       <h3>
                         <Link href="/blog-details">
-                          Everything You Need To Know About CSS Margins
-                          Optimizing Google Fonts
+                          JavaScript ES6+ Features You Should Be Using
                         </Link>
                       </h3>
                       <p>
-                        Apexpath are a technology driven and innovation oriented progressive company which provides a distinct platform that caters to a wide range of customers across the globe.
-                        Sit amet consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Quis
-                        ipsum suspendisse ultrices gravida. Risus commodo
-                        viverra maecenas accumsan lacus vel facilisis.{" "}
+                        <b>Overview:</b> Introduce the modern features of JavaScript that came with ES6 and beyond, such as arrow functions, promises, async/await, destructuring, and template literals.<br />
+                        <b>What to include:</b> Examples of how these features simplify coding and make code more efficient, along with practical use cases.{""}
                       </p>
                       <Link href="/blog-details">
                         <a className="theme-btn style-two">
@@ -251,16 +235,12 @@ const BlogStandard = () => {
                       </ul>
                       <h3>
                         <Link href="/blog-details">
-                          Everything You Need To Know About CSS Margins
-                          Optimizing Google Fonts
+                        Understanding and Implementing RESTful APIs in Web Development
                         </Link>
                       </h3>
                       <p>
-                        Apexpath are a technology driven and innovation oriented progressive company which provides a distinct platform that caters to a wide range of customers across the globe.
-                        Sit amet consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Quis
-                        ipsum suspendisse ultrices gravida. Risus commodo
-                        viverra maecenas accumsan lacus vel facilisis.{" "}
+                      <b>Overview:</b> Dive into the concept of RESTful APIs and how they allow web applications to communicate with a server, explaining concepts like HTTP methods, endpoints, and JSON.<br />
+                      <b>What to include:</b>  A tutorial on building a simple API with Node.js and Express, and consuming that API from a front-end application.{""}
                       </p>
                       <Link href="/blog-details">
                         <a className="theme-btn style-two">
@@ -277,7 +257,7 @@ const BlogStandard = () => {
             </div>
             <div className="col-lg-4">
               <div className="blog-sidebar rmt-75">
-                <div className="widget widget-search wow fadeInUp delay-0-2s">
+                {/* <div className="widget widget-search wow fadeInUp delay-0-2s">
                   <form onSubmit={(e) => e.preventDefault()} action="#">
                     <input type="text" placeholder="Search Here" required="" />
                     <button
@@ -285,7 +265,7 @@ const BlogStandard = () => {
                       className="searchbutton fa fa-search"
                     />
                   </form>
-                </div>
+                </div> */}
                 <div className="widget widget-about wow fadeInUp delay-0-4s">
                   <div className="image">
                     <img src="assets/images/widgets/about.jpg" alt="Author" />

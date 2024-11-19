@@ -20,22 +20,22 @@ const Footer = ({ footer }) => {
 export default Footer;
 const FollowIcon = () => (
   <Fragment>
-    <Link href="https://www.facebook.com/tricklesolutions">
+    <Link href="https://www.facebook.com/apexpath/">
       <a>
         <i className="fab fa-facebook-f" />
       </a>
     </Link>
-    <Link href="https://www.twitter.com/tricklesolutions">
+    <Link href="https://www.twitter.com/apexpath">
       <a>
         <i className="fab fa-twitter" />
       </a>
     </Link>
-    <Link href="https://www.linkdin.com/tricklesolutions">
+    <Link href="https://in.linkedin.com/company/apexpath">
       <a>
         <i className="fab fa-linkedin-in" />
       </a>
     </Link>
-    <Link href="https://www.youtube.com/tricklesolutions">
+    <Link href="https://www.youtube.com/apexpath">
       <a>
         <i className="fab fa-youtube" />
       </a>

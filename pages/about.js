@@ -63,7 +63,7 @@ const About = () => {
                   >
                     <Counter end={256} />
                   </span>
-                  <span>Enrolled Learner</span>
+                  <span>Successful Projects</span>
                 </div>
                 <div className="success-item">
                   <span
@@ -73,7 +73,7 @@ const About = () => {
                   >
                     <Counter end={2.36} decimals={2} />
                   </span>
-                  <span>Finished Session</span>
+                  <span>Happy Customers</span>
                 </div>
                 <div className="success-item">
                   <span
@@ -83,17 +83,18 @@ const About = () => {
                   >
                     <Counter end={99} />
                   </span>
-                  <span>Saticfaction Rate</span>
+                  <span>Success Ratio</span>
                 </div>
                 <div className="success-item">
                   <span
                     className="count-text plus"
                     data-speed={3000}
-                    data-stop={83}
+                    data-stop={1}
                   >
-                    <Counter end={83} />
+                    <Counter end={15} />
                   </span>
-                  <span>Awards Winning</span>
+                  <span>Year of
+                  Experience</span>
                 </div>
               </div>
             </div>

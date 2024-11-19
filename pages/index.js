@@ -4,7 +4,27 @@ import Advertise from "../src/components/Advertise";
 import Counter from "../src/components/Counter";
 import Layout from "../src/layout/Layout";
 import { coachSlider } from "../src/sliderProps";
+import Typewriter from "typewriter-effect";
+import { useEffect, useState } from "react";
 const Index = () => {
+
+  const images = [
+    'assets/images/hero/robot.png',
+    'assets/images/hero/sps.png',
+    'assets/images/hero/cmp.png',
+    'assets/images/hero/rbs.png',
+    'assets/images/hero/CHS.png',
+  ];
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 3000); // Change image every 60 seconds
+    return () => clearInterval(interval);
+  }, [images.length]);
+
   return (
     <Layout header={4} footer={4}>
       <section className="hero-section-three bg-lighter rel z-1 pt-150 rpt-150">
@@ -12,7 +32,28 @@ const Index = () => {
           <div className="row large-gap">
             <div className="col-lg-6 align-self-end">
               <div className="hero-three-image-part">
-                <img src="assets/images/hero/robot.png" alt="Hero" />
+                {/* <img src="assets/images/hero/robot.png" alt="Hero" /> */}
+                {images.map((src, index) =>
+                  index === currentIndex ? (
+                    <img
+                      key={index}
+                      src={src}
+                      alt={`Slide ${index}`}
+                      style={{
+                        display: 'block',
+                        width: '100%',
+                        height: 'auto',
+                      }}
+                    />
+                  ) : (
+                    <img
+                      key={index}
+                      src={src}
+                      alt={`Slide ${index}`}
+                      style={{ display: 'none' }}
+                    />
+                  )
+                )}
                 {/* <div className="hero-chart wow fadeInUp delay-0-2s">
                   <img height={100} src="assets/images/Satisfy-Work.png" alt="Chart" />
                   <h5>99% Satisfy Work</h5>
@@ -40,7 +81,16 @@ const Index = () => {
                   <span>2563+</span> Happy Customers
                 </span>
                 <h1 className="mb-25 wow fadeInUp delay-0-4s">
-                  WE'RE SOFTWARE <span>Development</span> COMPANY
+                  WE'RE SOFTWARE
+                  {" "}<br/> <span>
+                    <Typewriter
+                      options={{
+                        strings: ["DEVELOPMENT", "INNOVATION", "SOLUTIONS"],
+                        autoStart: true,
+                        loop: true,
+                      }}
+                    />
+                  </span>{" "}<br/> COMPANY
                 </h1>
                 <p>Though time brings suffocation to business. Your business may need fresh oxygen in terms of new creative website.</p>
                 <ul className="list-style-one wow fadeInUp delay-0-6s">
@@ -836,9 +886,9 @@ const Index = () => {
                 <ul className="blog-meta">
                   <p>"We’ve been working with ApexPath for over a year, and their dedication to customer support is unmatched. Not only did they deliver a solution that met our specific requirements, but they also continue to innovate and offer new features that add value to our business. The team listens to feedback and is quick to implement changes. It’s refreshing to work with a company that genuinely cares about our success."</p>
                 </ul>
-                  <a className="read-more">
-                    Sarah M., Operations Manager
-                  </a>
+                <a className="read-more">
+                  Sarah M., Operations Manager
+                </a>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -851,9 +901,9 @@ const Index = () => {
                 <ul className="blog-meta">
                   <p>"The software solutions provided by ApexPath have significantly improved our operational efficiency. With their customized tools, we’ve been able to streamline processes that used to take hours into tasks that now take minutes. The team is responsive and truly understands our business needs. I highly recommend ApexPath for anyone looking to optimize their workflow and maximize productivity!"</p>
                 </ul>
-                  <a className="read-more">
+                <a className="read-more">
                   John D., IT Director
-                  </a>
+                </a>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -868,9 +918,9 @@ const Index = () => {
                     "Switching to ApexPath’s platform was one of the best decisions we’ve made. Their software is both reliable and scalable, which has allowed us to grow without worrying about outgrowing our tools. The pricing is fair and transparent, with no hidden costs. We feel confident that ApexPath is a partner in our growth and not just another vendor."
                   </p>
                 </ul>
-                  <a className="read-more">
+                <a className="read-more">
                   Emily L., CEO
-                  </a>
+                </a>
               </div>
             </div>
           </div>

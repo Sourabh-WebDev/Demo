@@ -14,9 +14,7 @@ const ContactUs = () => {
                   <h2>Contact For Information</h2>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium totam rem aperiam eaque ipsa
-                  quae abillo inventore veritatis et quasi architecto
+                  We’re here to bring your ideas to life. Whether you’re looking to build cutting-edge software, need technical support, or simply want to explore how our solutions can fit your needs, we’d love to hear from you.
                 </p>
                 <div className="row no-gap mt-50">
                   <div className="col-md-4 col-sm-6">
@@ -66,20 +64,20 @@ const ContactUs = () => {
           <form
             onSubmit={(e) => {
               e.preventDefault();
-          
+
               // Collect form data
               const fullName = document.getElementById("full-name").value;
               const email = document.getElementById("email-address").value;
               const phone = document.getElementById("phone").value;
               const message = document.getElementById("message").value;
-          
+
               // Construct mailto link
               const mailtoLink = `mailto:your-email@example.com?subject=Contact Form Submission&body=Full Name: ${encodeURIComponent(
                 fullName
               )}%0AEmail: ${encodeURIComponent(email)}%0APhone: ${encodeURIComponent(
                 phone
               )}%0AMessage: ${encodeURIComponent(message)}`;
-          
+
               // Trigger the email client
               window.location.href = mailtoLink;
             }}
