@@ -13,9 +13,9 @@ export default async function handler(req, res) {
     // Add a new blog to MongoDB
     const { id, bloggerName, date, comments, blogHeader, Overview, whatToInclude } = req.body;
 
-    if (!id || !bloggerName || !date || !comments || !blogHeader || !Overview || !whatToInclude) {
-      return res.status(400).json({ message: "Please provide all required fields." });
-    }
+    // if (!id || !bloggerName || !date || !comments || !blogHeader || !Overview || !whatToInclude) {
+    //   return res.status(400).json({ message: "Please provide all required fields." });
+    // }
 
     const result = await db.collection("Blogs").insertOne({
       id,
