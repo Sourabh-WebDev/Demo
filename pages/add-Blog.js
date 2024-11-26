@@ -50,7 +50,7 @@ const AddBlog = () => {
             const data = await response.json();
             console.log(data);
 
-            if (data.success) {
+            if (data.message === "Blog added successfully.") {
                 setMessage("Blog added successfully!");
                 setFormData({
                     id: "4",
