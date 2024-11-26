@@ -10,7 +10,7 @@ const AddBlog = () => {
         date: "",
         comments: "0",
         blogHeader: "",
-        overview: "",
+        Overview: "",
         whatToInclude: "",
     });
 
@@ -57,7 +57,7 @@ const AddBlog = () => {
                     bloggerName: "",
                     date: "",
                     blogHeader: "",
-                    overview: "",
+                    Overview: "",
                     comments: "0",
                     whatToInclude: "",
                 });
