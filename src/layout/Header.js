@@ -389,8 +389,8 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                       <Link href="/">
                         <a>
                           <img
-                            height={120}
-                            src="assets/images/newweb/newLogo.png"
+                            // height={80}
+                            src="assets/images/newweb/apexpath.png"
                             alt="Logo"
                             title="Logo"
                           />

@@ -2,7 +2,24 @@ import Link from "next/link";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layout/Layout";
 import Pagination from "../src/Pagination";
+import { useEffect, useState } from "react";
 const BlogStandard = () => {
+
+  const [blogs, setBlogs] = useState([]);
+
+  useEffect(() => {
+    const fetchBlogs = async () => {
+        const response = await fetch('/api/hello');
+        const data = await response.json();
+        console.log(data); // Log the fetched data
+        setBlogs(data);
+    };
+
+    fetchBlogs();
+}, []);
+
+    console.log(blogs,'blogs')
+
   return (
     <Layout>
       <PageBanner pageName={"Our Blogs"} />
@@ -31,7 +48,7 @@ const BlogStandard = () => {
                     <div className="content">
                       <ul className="blog-standard-header">
                         <li>
-                          <span className="name">Michael M. Morris</span>
+                          <span className="name">{blogs?.blogerName}</span>
                         </li>
                         <li>
                           <i className="far fa-calendar-alt" />{" "}
@@ -49,7 +66,7 @@ const BlogStandard = () => {
                         </Link>
                       </h3> */}
                       <p>
-                        Web development is an ever-evolving field, blending creativity and technology to build functional, user-friendly websites and applications. From mastering HTML, CSS, and JavaScript to exploring modern frameworks like React, the focus spans responsive design, accessibility, and performance optimization. Developers work with APIs, secure apps, and leverage tools like Git for version control. Emerging trends such as Progressive Web Apps (PWAs), serverless architectures, and AI-driven features shape the future. With a strong foundation and awareness of best practices, developers can create cutting-edge solutions that meet the demands of an increasingly digital world.{" "}
+                        {blogs?.blocgContent}
                       </p>
                       {/* <Link href="/blog-details">
                         <a className="theme-btn style-two">

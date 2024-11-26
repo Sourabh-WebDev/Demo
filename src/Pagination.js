@@ -39,7 +39,7 @@ const Pagination = ({ paginationCls, sort }) => {
           </li>
         ))}
 
-      <li c className={`page-item ${active == state.length ? "disabled" : ""}`}>
+      <li c="true" className={`page-item ${active == state.length ? "disabled" : ""}`}>
         <a
           className="page-link"
           href="#"
