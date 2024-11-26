@@ -9,16 +9,17 @@ const BlogStandard = () => {
 
   useEffect(() => {
     const fetchBlogs = async () => {
-        const response = await fetch('/api/hello');
-        const data = await response.json();
-        console.log(data); // Log the fetched data
-        setBlogs(data);
+      const response = await fetch('/api/hello');
+      const data = await response.json();
+      console.log(data); // Log the fetched data
+      setBlogs(data);
     };
 
     fetchBlogs();
-}, []);
+  }, []);
 
-    console.log(blogs,'blogs')
+
+  console.log(blogs, 'blogs')
 
   return (
     <Layout>
@@ -28,198 +29,62 @@ const BlogStandard = () => {
           <div className="row">
             <div className="col-lg-8">
               <div className="blog-standard-wrap">
-                <div className="blog-standard-item wow fadeInUp delay-0-2s">
-                  <div className="image">
-                    <img
-                      src="assets/images/blog/blog-standard1.jpg"
-                      alt="Blog"
-                    />
-                    <a href="#">
-                      <i className="fas fa-share-alt" />
-                    </a>
-                  </div>
-                  <div className="blog-standard-content">
-                    <div className="author">
-                      <img
-                        src="assets/images/blog/blog-standard-author1.jpg"
-                        alt="Author"
-                      />
-                    </div>
-                    <div className="content">
-                      <ul className="blog-standard-header">
-                        <li>
-                          <span className="name">{blogs?.blogerName}</span>
-                        </li>
-                        <li>
-                          <i className="far fa-calendar-alt" />{" "}
-                          <Link href="/blog-details">February 20, 2022</Link>
-                        </li>
-                        <li>
-                          <i className="far fa-comments" />{" "}
-                          <Link href="/blog-details">Comments (05)</Link>
-                        </li>
-                      </ul>
-                      {/* <h3>
-                        <Link href="/blog-details">
-                          Creating Online Environments That Work Well For Older
-                          Users
-                        </Link>
-                      </h3> */}
-                      <p>
-                        {blogs?.blocgContent}
-                      </p>
-                      {/* <Link href="/blog-details">
+                {
+                  blogs?.map((blogs) => (
+                    <div className="blog-standard-item wow fadeInUp delay-0-2s">
+                      <div className="image">
+                        <img
+                          src="assets/images/blog/blog-standard1.jpg"
+                          alt="Blog"
+                        />
+                        <a href="#">
+                          <i className="fas fa-share-alt" />
+                        </a>
+                      </div>
+                      <div className="blog-standard-content">
+                        <div className="author">
+                          <img
+                            src="assets/images/blog/blog-standard-author1.jpg"
+                            alt="Author"
+                          />
+                        </div>
+                        <div className="content">
+                          <ul className="blog-standard-header">
+                            <li>
+                              <span className="name">{blogs?.bloggerName}</span>
+                            </li>
+                            <li>
+                              <i className="far fa-calendar-alt" />{" "}
+                              <Link href="/blog-details">February 20, 2022</Link>
+                            </li>
+                            <li>
+                              <i className="far fa-comments" />{" "}
+                              <Link href="/blog-details">Comments (05)</Link>
+                            </li>
+                          </ul>
+                          <h3>
+                            {blogs?.blogHeader}
+                          </h3>
+                          <p>
+                            <b>Overview:</b> {blogs?.Overview}<br />
+                            <b>What to include:</b>  {blogs?.whatToInclude}{""}
+                          </p>
+                          <Link href="/blog-details">
+                            <a className="theme-btn style-two">
+                              Learn more <i className="fas fa-arrow-right" />
+                            </a>
+                          </Link>
+                          {/* <Link href="/blog-details">
                         <a className="theme-btn style-two">
                           Learn more <i className="fas fa-arrow-right" />
                         </a>
                       </Link> */}
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-                <div className="blog-standard-item wow fadeInUp delay-0-2s">
-                  <div className="image">
-                    <img
-                      src="assets/images/blog/blog-standard2.jpg"
-                      alt="Blog"
-                    />
-                    <a href="#">
-                      <i className="fas fa-share-alt" />
-                    </a>
-                  </div>
-                  <div className="blog-standard-content">
-                    <div className="author">
-                      <img
-                        src="assets/images/blog/blog-standard-author2.jpg"
-                        alt="Author"
-                      />
-                    </div>
-                    <div className="content">
-                      <ul className="blog-standard-header">
-                        <li>
-                          <span className="name">Michael M. Morris</span>
-                        </li>
-                        <li>
-                          <i className="far fa-calendar-alt" />{" "}
-                          <Link href="/blog-details">February 20, 2022</Link>
-                        </li>
-                        <li>
-                          <i className="far fa-comments" />{" "}
-                          <Link href="/blog-details">Comments (05)</Link>
-                        </li>
-                      </ul>
-                      <h3>
-                        <Link href="/blog-details">
-                          Getting Started with Modern Web Development
-                        </Link>
-                      </h3>
-                      <p><b>Overview:</b> A beginner's guide to understanding the essentials of web development today, including HTML5, CSS3, JavaScript, and popular frameworks like React and Vue.<br />
-                        <b>What to include:</b> Introduction to web development, how the web has evolved, and a step-by-step guide to building a simple web page.{" "}
-                      </p>
-                      <Link href="/blog-details">
-                        <a className="theme-btn style-two">
-                          Learn more <i className="fas fa-arrow-right" />
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-                <div className="blog-standard-item wow fadeInUp delay-0-2s">
-                  <div className="image">
-                    <img
-                      src="assets/images/blog/blog-standard3.jpg"
-                      alt="Blog"
-                    />
-                    <a href="#">
-                      <i className="fas fa-share-alt" />
-                    </a>
-                  </div>
-                  <div className="blog-standard-content">
-                    <div className="author">
-                      <img
-                        src="assets/images/blog/blog-standard-author1.jpg"
-                        alt="Author"
-                      />
-                    </div>
-                    <div className="content">
-                      <ul className="blog-standard-header">
-                        <li>
-                          <span className="name">Michael M. Morris</span>
-                        </li>
-                        <li>
-                          <i className="far fa-calendar-alt" />{" "}
-                          <Link href="/blog-details">February 20, 2022</Link>
-                        </li>
-                        <li>
-                          <i className="far fa-comments" />{" "}
-                          <Link href="/blog-details">Comments (05)</Link>
-                        </li>
-                      </ul>
-                      <h3>
-                        <Link href="/blog-details">
-                          The Power of Responsive Web Design
-                        </Link>
-                      </h3>
-                      <p>
-                        <b>Overview:</b> Discuss how responsive design is crucial for today's mobile-first world and how to implement it using CSS media queries, flexible layouts, and viewport units.<br />
-                        <b>What to include:</b> Code examples of a simple responsive layout, tips for testing responsiveness, and tools like Chrome DevTools.{" "}
-                      </p>
-                      <Link href="/blog-details">
-                        <a className="theme-btn style-two">
-                          Learn more <i className="fas fa-arrow-right" />
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-                <div className="blog-standard-item wow fadeInUp delay-0-2s">
-                  <div className="image">
-                    <img
-                      src="assets/images/blog/blog-standard4.jpg"
-                      alt="Blog"
-                    />
-                    <a href="#">
-                      <i className="fas fa-share-alt" />
-                    </a>
-                  </div>
-                  <div className="blog-standard-content">
-                    <div className="author">
-                      <img
-                        src="assets/images/blog/blog-standard-author2.jpg"
-                        alt="Author"
-                      />
-                    </div>
-                    <div className="content">
-                      <ul className="blog-standard-header">
-                        <li>
-                          <span className="name">Michael M. Morris</span>
-                        </li>
-                        <li>
-                          <i className="far fa-calendar-alt" />{" "}
-                          <Link href="/blog-details">February 20, 2022</Link>
-                        </li>
-                        <li>
-                          <i className="far fa-comments" />{" "}
-                          <Link href="/blog-details">Comments (05)</Link>
-                        </li>
-                      </ul>
-                      <h3>
-                        <Link href="/blog-details">
-                          JavaScript ES6+ Features You Should Be Using
-                        </Link>
-                      </h3>
-                      <p>
-                        <b>Overview:</b> Introduce the modern features of JavaScript that came with ES6 and beyond, such as arrow functions, promises, async/await, destructuring, and template literals.<br />
-                        <b>What to include:</b> Examples of how these features simplify coding and make code more efficient, along with practical use cases.{""}
-                      </p>
-                      <Link href="/blog-details">
-                        <a className="theme-btn style-two">
-                          Learn more <i className="fas fa-arrow-right" />
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-                <div className="blog-standard-item wow fadeInUp delay-0-2s">
+                  ))
+                }
+                {/* <div className="blog-standard-item wow fadeInUp delay-0-2s">
                   <div className="image">
                     <img
                       src="assets/images/blog/blog-standard5.jpg"
@@ -266,7 +131,7 @@ const BlogStandard = () => {
                       </Link>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <ul className="pagination flex-wrap">
                   <Pagination paginationCls={".blog-standard-item"} sort={3} />
                 </ul>

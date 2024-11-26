@@ -12,6 +12,7 @@ export const sidebarOnclick = () => {
   body.classList.toggle("side-content-visible");
 };
 
+
 // Sticky nav
 const stickyNav_ = () => {
   let offset = window.scrollY;

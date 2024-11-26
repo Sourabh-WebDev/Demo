@@ -11,9 +11,9 @@ export default async function handler(req, res) {
     res.status(200).json(blogs);
   } else if (req.method === "POST") {
     // Add a new blog to MongoDB
-    const { id, bloggerName, date, comments, blogContent } = req.body;
+    const { id, bloggerName, date, comments, blogHeader, Overview, whatToInclude } = req.body;
 
-    if (!id || !bloggerName || !date || !comments || !blogContent) {
+    if (!id || !bloggerName || !date || !comments || !blogHeader || !Overview || !whatToInclude) {
       return res.status(400).json({ message: "Please provide all required fields." });
     }
 
@@ -22,7 +22,9 @@ export default async function handler(req, res) {
       bloggerName,
       date,
       comments,
-      blogContent,
+      blogHeader,
+      Overview,
+      whatToInclude
     });
 
     res.status(201).json({ message: "Blog added successfully.", blog: result });

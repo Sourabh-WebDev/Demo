@@ -431,9 +431,11 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                 {/* <button className="cart">
                   <i className="fas fa-shopping-bag" />
                 </button> */}
-                {/* <button>
-                  <i className="far fa-user-circle" />
-                </button> */}
+                <Link href={"/add-Blog"}>
+                  <button title="Add your Blog here">
+                    <i className="fas fa-blog" />
+                  </button>
+                </Link>
                 {/* menu sidbar */}
                 <div className="menu-sidebar" onClick={() => sidebarOnclick()}>
                   <button>
