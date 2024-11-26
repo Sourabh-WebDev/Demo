@@ -52,7 +52,15 @@ const AddBlog = () => {
 
             if (data.message === "Blog added successfully.") {
                 setMessage("Blog added successfully!");
-                setFormData({ });
+                setFormData({
+                    id: "",
+                    bloggerName: "",
+                    date: "",
+                    comments: "",
+                    blogHeader: "",
+                    Overview: "",
+                    whatToInclude: "",
+                });
             } else {
                 setMessage("Error adding blog. Please try again.");
             }
