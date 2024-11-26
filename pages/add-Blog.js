@@ -129,7 +129,7 @@ const AddBlog = () => {
                                         name="overview"
                                         className="form-control"
                                         placeholder="Write a brief overview"
-                                        value={formData.overview}
+                                        value={formData.Overview}
                                         onChange={handleChange}
                                         required
                                     />
