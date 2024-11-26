@@ -10,7 +10,7 @@ const AddBlog = () => {
         date: "",
         comments: "0",
         blogHeader: "",
-        Overview: "",
+        overview: "",
         whatToInclude: "",
     });
 
@@ -58,7 +58,7 @@ const AddBlog = () => {
                     date: "",
                     comments: "",
                     blogHeader: "",
-                    Overview: "",
+                    overview: "",
                     whatToInclude: "",
                 });
             } else {
@@ -129,7 +129,7 @@ const AddBlog = () => {
                                         name="overview"
                                         className="form-control"
                                         placeholder="Write a brief overview"
-                                        value={formData.Overview}
+                                        value={formData.overview}
                                         onChange={handleChange}
                                         required
                                     />
