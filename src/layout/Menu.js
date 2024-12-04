@@ -180,7 +180,7 @@ export const Services = () => (
 
     <div style={{ overflowY: 'scroll', height: '250px' }} className="row">
 
-      <div className="col-lg-6 col-sm-12 text-center p-3 ">
+      <div className="col-lg-6 col-sm-12 text-center pt-3">
         <h4 className="text-primary">Design & Services</h4>
 
         {designingList.map((item, index) => (
@@ -189,7 +189,7 @@ export const Services = () => (
           </li>
         ))}
       </div>
-      <div className="col-lg-6 col-sm-12 text-center  p-3 ">
+      <div className="col-lg-6 col-sm-12 text-center  pt-3 ">
         <h4 className="text-primary">Development</h4>
 
         {developmentList.map((item, index) => (

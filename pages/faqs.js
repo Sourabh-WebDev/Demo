@@ -173,7 +173,7 @@ const Faqs = () => {
                   </div>
                   <div className="content">
                     <h6>Phone Number</h6>
-                    <a href="callto:+91">+917290900835</a>
+                    <a href="callto:+91">+919991310732</a>
                   </div>
                 </div>
               </div>

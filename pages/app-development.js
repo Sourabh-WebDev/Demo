@@ -460,25 +460,10 @@ const appdevelopment = () => {
                 <div className="course-sidebar rmt-75">
   
                   <h3 className="mt-40">Development Keys:-</h3>
-  
-                  <ul className="list-style-two mb-45">
-                    <li>
-                      DevTools Debugging Tips And Shortcuts (Chrome, Firefox,
-                      Edge)
-                    </li>
-                    <li>
-                      Front-End Performance Checklist 2021 (PDF, Apple Pages, MS
-                      Word)
-                    </li>
-                    <li>
-                      A Smashing Guide To The World Of Search Engine Optimization
-                    </li>
-                  </ul>
 
                   <ul className="list-style-two mb-45">
                     <li>Any Job Holders, Students</li>
                     <li>Corporate Trainer</li>
-                    <li>Any Job Holders, Students</li>
                     <li> DevTools Debugging Tips And Shortcuts (Chrome, Firefox, Edge)</li>
                     <li>
                       Front-End Performance Checklist 2021 (PDF, Apple Pages, MS Word)

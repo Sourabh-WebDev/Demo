@@ -470,7 +470,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
         </Link>
       </li>
       <li className="dropdown">
-        <a href="#">Service</a>
+        <a href="#">Services</a>
         <ul style={{ minWidth: '900px', left: '-250px' }}>
           <Services />
         </ul>

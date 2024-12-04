@@ -437,7 +437,7 @@ const SoftwareDevelopment = () => {
                             </ul> */}
                             <div>
                                 <h3 className="mt-40">Back-end programming languages ​</h3>
-                                <p>Dot Net, Node, Java, C#, Python, PHP, Ruby, GO</p>
+                                <p> .Net, Node, Java, C#, Python, PHP, Ruby, GO</p>
                             </div>
                             <div>
                                 <h3 className="mt-40">Front-end programming languages ​</h3>

@@ -160,11 +160,11 @@ const Index = () => {
                     We craft websites with a focus on user experience, ensuring they are visually appealing, easy to navigate, and responsive on all devices.
                   </p>
                 </div>
-                <Link href="/about">
+                {/* <Link href="/about">
                   <a className="read-more color-two">
                     raed more <i className="fas fa-arrow-right" />
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
@@ -181,11 +181,11 @@ const Index = () => {
                     Our websites are built with robust functionality and optimized performance, providing fast loading times and seamless interactivity.
                   </p>
                 </div>
-                <Link href="/about">
+                {/* <Link href="/about">
                   <a className="read-more color-two">
                     raed more <i className="fas fa-arrow-right" />
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
@@ -202,11 +202,11 @@ const Index = () => {
                     We implement effective SEO strategies to help our customers' websites rank higher in search engine results, driving organic traffic and increasing visibility.
                   </p>
                 </div>
-                <Link href="/about">
+                {/* <Link href="/about">
                   <a className="read-more color-two">
                     raed more <i className="fas fa-arrow-right" />
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
@@ -223,11 +223,11 @@ const Index = () => {
                     We provide continuous support and maintenance services to keep the website secure, up-to-date, and functioning smoothly, offering peace of mind to our customers.
                   </p>
                 </div>
-                <Link href="/about">
+                {/* <Link href="/about">
                   <a className="read-more color-two">
                     raed more <i className="fas fa-arrow-right" />
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

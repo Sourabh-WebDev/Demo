@@ -119,11 +119,11 @@ const About = () => {
                 <p>
                   We provide only high-quality software and services to our clients. We guarantee you will get tangible business value from your IT investments, enjoy healthy project processes, professional and motivated teams, effective communication between Apex path, your teams, and stakeholders.
                 </p>
-                <Link href="/about">
+                {/* <Link href="/about">
                   <a className="details-btn">
                     <i className="fas fa-long-arrow-alt-right" />
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
@@ -135,11 +135,11 @@ const About = () => {
                 <p>
                   we prioritize providing top-notch security solutions that safeguard your data with advanced encryption and robust authentication protocols. Our team of experts continuously enhances our systems to stay ahead of evolving threats, ensuring that your applications are secure, scalable, and reliable.
                 </p>
-                <Link href="/about">
+                {/* <Link href="/about">
                   <a className="details-btn">
                     <i className="fas fa-long-arrow-alt-right" />
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
@@ -151,11 +151,11 @@ const About = () => {
                 <p>
                   Fast and steady, our code takes flight, In agile sprints through day and night. We craft with care, each line precise, For software stable, strong, concise.
                 </p>
-                <Link href="/about">
+                {/* <Link href="/about">
                   <a className="details-btn">
                     <i className="fas fa-long-arrow-alt-right" />
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
@@ -167,11 +167,11 @@ const About = () => {
                 <p>
                   We think outside the box to bring additional value to our customers and improve their performance with our comprehensive IT services and robust solutions​.
                 </p>
-                <Link href="/about">
+                {/* <Link href="/about">
                   <a className="details-btn">
                     <i className="fas fa-long-arrow-alt-right" />
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -518,7 +518,7 @@ const About = () => {
       <section className="partner-section rel z-1 pt-120 rpt-90 pb-75 rpb-55">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-6">
+            <div className="col-lg-12">
               <div className="categories-content mb-50 wow fadeInRight delay-0-2s">
                 <div className="section-title mb-25">
                   <span className="sub-title-two">Global Partners</span>
@@ -531,7 +531,7 @@ const About = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-6">
+            {/* <div className="col-lg-6">
               <div className="logo-inner style-two wow fadeInLeft delay-0-2s">
                 <div className="logo-item">
                   <Link href="/about">
@@ -582,7 +582,7 @@ const About = () => {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

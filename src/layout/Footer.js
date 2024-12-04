@@ -35,11 +35,11 @@ const FollowIcon = () => (
         <i className="fab fa-linkedin-in" />
       </a>
     </Link>
-    <Link href="https://www.youtube.com/apexpath">
+    {/* <Link href="https://www.youtube.com/apexpath">
       <a>
         <i className="fab fa-youtube" />
       </a>
-    </Link>
+    </Link> */}
   </Fragment>
 ),
   Services = () => (
@@ -306,13 +306,13 @@ const FollowIcon = () => (
           </div>
         </div>
       </div>
-      <div className="copyright-area bg-dark-blue text-white rel">
+      <div className="copyright-area bg-dark-blue text-white text-center rel">
         <div className="container">
-          <div className="copyright-inner">
+          <div className="copyright-inner d-flex justify-content-center pt-20">
             <CopyRight />
-            <ul className="footer-menu">
+            {/* <ul className="footer-menu">
               <FooterBottom />
-            </ul>
+            </ul> */}
           </div>
         </div>
         {/* Scroll Top Button */}
