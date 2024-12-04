@@ -28,20 +28,20 @@ const Sidebar = () => {
               // action="#"
               onSubmit={(e) => {
                 e.preventDefault();
-  
+
                 // Collect form data
                 const fullName = document.getElementById("full-name").value;
                 const email = document.getElementById("email-address").value;
                 // const phone = document.getElementById("phone").value;
                 const message = document.getElementById("message").value;
-  
+
                 // Construct mailto link
                 const mailtoLink = `mailto:your-email@example.com?subject=Contact Form Submission&body=Full Name: ${encodeURIComponent(
                   fullName
                 )}%0AEmail: ${encodeURIComponent(email)}%0APhone: ${encodeURIComponent(
                   phone
                 )}%0AMessage: ${encodeURIComponent(message)}`;
-  
+
                 // Trigger the email client
                 window.location.href = mailtoLink;
               }}
@@ -78,21 +78,21 @@ const Sidebar = () => {
               </div>
             </form>
           </div>
-          
+
           {/*Social Icons*/}
-          
+
           <div className="social-style-one">
-            <a href="#">
+            <a href="https://www.twitter.com/apexpath">
               <i className="fab fa-twitter" />
             </a>
-            <a href="#">
+            <a href="https://www.facebook.com/apexpath/">
               <i className="fab fa-facebook-f" />
             </a>
-            <a href="#">
-              <i className="fab fa-instagram" />
+            <a href="https://in.linkedin.com/company/apexpath">
+              <i className="fab fa-linkedin-in" />
             </a>
-            <a href="#">
-              <i className="fab fa-pinterest-p" />
+            <a href="https://www.youtube.com/apexpath">
+            <i className="fab fa-youtube" />
             </a>
           </div>
         </div>

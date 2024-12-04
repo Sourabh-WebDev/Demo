@@ -867,7 +867,7 @@ const Index = () => {
       </section> */}
       {/* Newsletter Section End */}
       {/* Blog Section Start */}
-      <section className="blog-section pt-120 rpt-90 pb-100 rpb-70">
+      {/* <section className="blog-section pt-120 rpt-90 pb-100 rpb-70">
         <div className="container">
           <div className="section-title text-center mb-70">
             <span className="sub-title-two"> Our Customers Say </span>
@@ -925,7 +925,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </Layout>
   );
 };
