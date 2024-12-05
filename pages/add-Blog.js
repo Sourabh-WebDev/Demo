@@ -21,10 +21,10 @@ const AddBlog = () => {
 
     const isLocalHost = window.location.hostname === "localhost";
 
-    // // If it's not localhost, return null to prevent rendering
-    // if (!isLocalHost) {
-    //     return null; // Page won't render if not on localhost
-    // }
+    // If it's not localhost, return null to prevent rendering
+    if (!isLocalHost) {
+        return null; // Page won't render if not on localhost
+    }
 
     const handleChange = (e) => {
         const { name, value } = e.target;
