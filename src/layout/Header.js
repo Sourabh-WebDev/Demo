@@ -431,7 +431,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                 {/* <button className="cart">
                   <i className="fas fa-shopping-bag" />
                 </button> */}
-                <Link href={"/add-Blog"}>
+                <Link href={"/"}>
                   <button title="Add your Blog here">
                     <i className="fas fa-blog" />
                   </button>

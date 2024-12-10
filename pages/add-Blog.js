@@ -178,10 +178,10 @@ const AddBlog = () => {
                                 <div className="form-group">
                                     <label htmlFor="whatToInclude">What to Include</label>
                                     <ReactQuill
-                                       value={formData.whatToInclude}
-                                       onChange={handleWYSIWYGChange}
-                                       modules={modules}
-                                       theme="snow"
+                                        value={formData.whatToInclude}
+                                        onChange={handleWYSIWYGChange}
+                                        modules={modules}
+                                        theme="snow"
                                     />
                                 </div>
 
