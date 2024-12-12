@@ -275,7 +275,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                     <img
                       // height={50}
                       width={200}
-                      src="assets/images/newweb/newLogo.png"
+                      src="assets/images/newlogos/ApexpathHead.png"
                       alt="Logo"
                       title="Logo"
                     />
@@ -291,7 +291,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                     <Link href="/">
                       <a>
                         <img
-                          src="assets/images/newweb/newLogo.png"
+                          src="assets/images/newlogos/ApexpathHead.png"
                           alt="Logo"
                           title="Logo"
                         />
@@ -367,7 +367,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                       <img
                         // height={120}
                         width={200}
-                        src="assets/images/newweb/apexpath.png"
+                        src="assets/images/newlogos/ApexpathMain.png"
                         alt="Logo"
                         title="Logo"
                       />
@@ -390,7 +390,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                         <a>
                           <img
                             // height={80}
-                            src="assets/images/newweb/apexpath.png"
+                            src="assets/images/newlogos/ApexpathMain.png"
                             alt="Logo"
                             title="Logo"
                           />
@@ -431,7 +431,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                 {/* <button className="cart">
                   <i className="fas fa-shopping-bag" />
                 </button> */}
-                <Link href={"/"}>
+                <Link href={"/add-Blog"}>
                   <button title="Add your Blog here">
                     <i className="fas fa-blog" />
                   </button>

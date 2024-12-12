@@ -120,7 +120,8 @@ const FollowIcon = () => (
     <footer className="main-footer bg-blue">
       <div className="container">
         {/* <Newsletters /> */}
-        <div className="row text-white pt-75">
+
+        <div className="row text-white pt-25">
           <div className="col-lg-3 col-sm-4">
             <div className="footer-widget about-widget">
               <h5 className="footer-title text-success">Design</h5>
@@ -308,11 +309,21 @@ const FollowIcon = () => (
       </div>
       <div className="copyright-area bg-dark-blue text-white text-center rel">
         <div className="container">
-          <div className="copyright-inner d-flex justify-content-center pt-20">
+          <div className="copyright-inner d-flex justify-content-between pt-20">
             <CopyRight />
-            {/* <ul className="footer-menu">
-              <FooterBottom />
-            </ul> */}
+            <div className="logo text-center">
+              <Link href="/">
+                <a>
+                  <img
+                    // height={120}
+                    width={200}
+                    src="assets/images/newlogos/ApexpathHeadWhite.png"
+                    alt="Logo"
+                    title="Logo"
+                  />
+                </a>
+              </Link>
+            </div>
           </div>
         </div>
         {/* Scroll Top Button */}

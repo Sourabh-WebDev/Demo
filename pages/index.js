@@ -98,16 +98,16 @@ const Index = () => {
                   <li>538+ Websites</li>
                 </ul>
                 <div className="hero-btns mt-10 wow fadeInUp delay-0-8s">
-                  <Link href="/contact">
+                  {/* <Link href="/contact">
                     <a className="theme-btn mt-10">
                       Free Quote <i className="fas fa-arrow-right" />
                     </a>
-                  </Link>
-                  <Link href="/course-grid">
+                  </Link> */}
+                  {/* <Link href="/course-grid">
                     <a className="theme-btn style-two mt-10">
                       our websites <i className="fas fa-arrow-right" />
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -131,7 +131,7 @@ const Index = () => {
                 <div className="section-title mb-30">
                   <span className="sub-title-three">Who we are</span>
                   <h2>
-                    NO #1 Web And App design & <span>Development</span> Company
+                  Leading Web And App design & <span>Development</span> Company
                     {/* Experience Our Best <span>Services</span> */}
                   </h2>
                 </div>

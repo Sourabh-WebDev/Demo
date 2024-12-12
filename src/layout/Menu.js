@@ -25,11 +25,6 @@ const designingList = [
   },
 
 
-  {
-    id: 4, Services: "Blockchain Technologies",
-    link: "/blockchain-development"
-  },
-
 
   {
     id: 5, Services: "Mobile Web Design",
@@ -37,22 +32,17 @@ const designingList = [
   },
 
 
-  {
-    id: 6, Services: "GIS App Development",
-    link: "/gis-App-development"
-  },
-
-  {
-    id: 7, Services: "Software Development",
-    link: "/software-development"
-  },
+  // {
+  //   id: 7, Services: "Software Development",
+  //   link: "/software-development"
+  // },
 ]
 const developmentList = [
 
-  {
-    id: 1, Services: " Mobile App Development",
-    link: "/app-development"
-  },
+  // {
+  //   id: 1, Services: " Mobile App Development",
+  //   link: "/app-development"
+  // },
 
 
   {
@@ -60,33 +50,37 @@ const developmentList = [
     link: "/website-development"
   },
 
+  // {
+  //   id: 3, Services: "MERN Development",
+  //   link: "/Mern-development"
+  // },
+
+
+  // {
+  //   id: 4, Services: "WordPress Development",
+  //   link: "/Wordpress-development"
+  // },
+
+
+  // {
+  //   id: 14, Services: "PHP Development",
+  //   link: "/Php-development"
+  // },
+
   {
-    id: 3, Services: "MERN Development",
-    link: "/Mern-development"
+    id: 6, Services: "GIS App Development",
+    link: "/gis-App-development"
+  },
+
+  {
+    id: 14, Services: "Software Development",
+     link: "/software-development"
   },
 
 
   {
-    id: 4, Services: "WordPress Development",
-    link: "/Wordpress-development"
-  },
-
-
-  {
-    id: 14, Services: "PHP Development",
-    link: "/Php-development"
-  },
-
-
-  {
-    id: 17, Services: "Native App Development",
-    link: "/Native-development"
-  },
-
-
-  {
-    id: 20, Services: "Web Portal Development",
-    link: "/webportal-development"
+    id: 4, Services: "Blockchain Technologies",
+    link: "/blockchain-development"
   },
 
 

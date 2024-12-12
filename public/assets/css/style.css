@@ -8712,7 +8712,7 @@ h6,
   display: flex;
   -webkit-box-align: start;
   -ms-flex-align: start;
-  align-items: start;
+  align-items: flex-start;
   position: absolute;
   width: calc(100% - 20px);
 }

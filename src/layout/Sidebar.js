@@ -1,6 +1,44 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import { sidebarOnclick } from "../utils";
+import { toast } from "react-toastify";
 const Sidebar = () => {
+
+  const [formData, setFormData] = useState({
+    fullName: '',
+    email: '',
+    phone: '',
+    message: '',
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    toast.info("Sending email...");
+
+    try {
+      const response = await fetch('/api/sendMail', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        toast.success("Email sent successfully!");
+        setFormData({ fullName: '', email: '', phone: '', message: '' });
+        sidebarOnclick();
+      } else {
+        const error = await response.json();
+        toast.error(`${error.error}`);
+      }
+    } catch (err) {
+      console.error('Error submitting form:', err);
+    }
+  };
+
   return (
     <Fragment>
       <div className="form-back-drop" onClick={() => sidebarOnclick()} />
@@ -20,31 +58,8 @@ const Sidebar = () => {
 
           <div className="appointment-form">
             <form
-              // onSubmit={(e) => {
-              //   e.preventDefault();
-              //   sidebarOnclick();
-              // }}
-              // method="post"
-              // action="#"
-              onSubmit={(e) => {
-                e.preventDefault();
 
-                // Collect form data
-                const fullName = document.getElementById("full-name").value;
-                const email = document.getElementById("email-address").value;
-                // const phone = document.getElementById("phone").value;
-                const message = document.getElementById("message").value;
-
-                // Construct mailto link
-                const mailtoLink = `mailto:your-email@example.com?subject=Contact Form Submission&body=Full Name: ${encodeURIComponent(
-                  fullName
-                )}%0AEmail: ${encodeURIComponent(email)}%0APhone: ${encodeURIComponent(
-                  phone
-                )}%0AMessage: ${encodeURIComponent(message)}`;
-
-                // Trigger the email client
-                window.location.href = mailtoLink;
-              }}
+              onSubmit={handleSubmit}
               id="contact-form"
               // className="contact-form p-50 z-1 rel"
               name="contact-form"
@@ -53,8 +68,10 @@ const Sidebar = () => {
               <div className="form-group">
                 <input
                   type="text"
-                  name="text"
-                  defaultValue=""
+                  name="fullName"
+                  id="fullName"
+                  onChange={handleChange}
+                  value={formData.fullName}
                   placeholder="Name"
                   required=""
                 />
@@ -62,14 +79,33 @@ const Sidebar = () => {
               <div className="form-group">
                 <input
                   type="email"
+                  id="email-address"
                   name="email"
-                  defaultValue=""
+                  onChange={handleChange}
+                  value={formData.email}
                   placeholder="Email Address"
                   required=""
                 />
               </div>
               <div className="form-group">
-                <textarea placeholder="Message" rows={5} defaultValue={""} />
+                <input
+                  type="text"
+                  id="phone"
+                  name="phone"
+                  onChange={handleChange}
+                  value={formData.phone}
+                  placeholder="Phone Number"
+                  required=""
+                />
+              </div>
+              <div className="form-group">
+                <textarea
+                  name="message"
+                  id="message"
+                  onChange={handleChange}
+                  placeholder="Message"
+                  rows={5}
+                  value={formData.message} />
               </div>
               <div className="form-group">
                 <button type="submit" className="theme-btn">
@@ -91,9 +127,9 @@ const Sidebar = () => {
             <a href="https://in.linkedin.com/company/apexpath">
               <i className="fab fa-linkedin-in" />
             </a>
-            <a href="https://www.youtube.com/apexpath">
-            <i className="fab fa-youtube" />
-            </a>
+            {/* <a href="https://www.youtube.com/apexpath">
+              <i className="fab fa-youtube" />
+            </a> */}
           </div>
         </div>
       </section>

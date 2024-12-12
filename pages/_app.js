@@ -1,6 +1,8 @@
 import Head from "next/head";
+import Script from "next/script";
 import { Fragment, useEffect, useState } from "react";
 import "../styles/globals.css";
+import { ToastContainer } from "react-toastify";
 
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(true);
@@ -13,7 +15,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
       <Head>
-        <link rel="alternate" href="https://apexpath.com/" hreflang="en-US" />
+        <link rel="alternate" href="https://apexpath.com/" hrefLang="en-US" />
         <title>
           ApexPath || Software Solution
         </title>
@@ -36,7 +38,7 @@ function MyApp({ Component, pageProps }) {
         {/*====== Favicon Icon ======*/}
         <link
           rel="shortcut icon"
-          href="assets/images/newweb/apexpath.png"
+          href="assets/images/newlogos/favicon.ico"
           type="image/x-icon"
         />
         {/*====== Google Fonts ======*/}
@@ -62,9 +64,23 @@ function MyApp({ Component, pageProps }) {
         <link rel="stylesheet" href="assets/css/slick.min.css" />
         {/*====== Main Style ======*/}
         <link rel="stylesheet" href="assets/css/style.css" />
+
       </Head>
+      <Script src="https://cdn.ckbox.io/ckbox/2.6.1/ckbox.js" crossOrigin="anonymous"/>
       {loading && <div className="preloader" />}
       <Component {...pageProps} />
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
     </Fragment>
   );
 }

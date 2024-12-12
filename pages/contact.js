@@ -1,6 +1,49 @@
+import { useState } from "react";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layout/Layout";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const ContactUs = () => {
+
+  const [formData, setFormData] = useState({
+    fullName: '',
+    email: '',
+    phone: '',
+    message: '',
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    toast.info("Sending email...", {
+      position: "bottom-left",
+    });
+
+    try {
+      const response = await fetch('/api/sendMail', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        toast.success("Email sent successfully!", {
+          position: "bottom-left",
+        });
+        setFormData({ fullName: '', email: '', phone: '', message: '' });
+      } else {
+        const error = await response.json();
+        toast.error(`${error.error}`);
+      }
+    } catch (err) {
+      console.error('Error submitting form:', err);
+    }
+  };
+
   return (
     <Layout>
       <PageBanner pageName={"Contact Us"} img={"https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} />
@@ -62,25 +105,7 @@ const ContactUs = () => {
       <section className="contact-form-area wow fadeInUp delay-0-2s">
         <div className="container">
           <form
-            onSubmit={(e) => {
-              e.preventDefault();
-
-              // Collect form data
-              const fullName = document.getElementById("full-name").value;
-              const email = document.getElementById("email-address").value;
-              const phone = document.getElementById("phone").value;
-              const message = document.getElementById("message").value;
-
-              // Construct mailto link
-              const mailtoLink = `mailto:your-email@example.com?subject=Contact Form Submission&body=Full Name: ${encodeURIComponent(
-                fullName
-              )}%0AEmail: ${encodeURIComponent(email)}%0APhone: ${encodeURIComponent(
-                phone
-              )}%0AMessage: ${encodeURIComponent(message)}`;
-
-              // Trigger the email client
-              window.location.href = mailtoLink;
-            }}
+            onSubmit={handleSubmit}
             id="contact-form"
             className="contact-form p-50 z-1 rel"
             name="contact-form"
@@ -95,10 +120,11 @@ const ContactUs = () => {
                 <div className="form-group">
                   <input
                     type="text"
-                    id="full-name"
-                    name="full-name"
+                    id="fullName"
+                    name="fullName"
                     className="form-control"
-                    defaultValue=""
+                    onChange={handleChange}
+                    value={formData.fullName}
                     placeholder="Full Name"
                     required=""
                   />
@@ -110,8 +136,9 @@ const ContactUs = () => {
                     type="email"
                     id="email-address"
                     name="email"
+                    onChange={handleChange}
                     className="form-control"
-                    defaultValue=""
+                    value={formData.email}
                     placeholder="Email Address"
                     required=""
                   />
@@ -124,7 +151,8 @@ const ContactUs = () => {
                     id="phone"
                     name="phone"
                     className="form-control"
-                    defaultValue=""
+                    onChange={handleChange}
+                    value={formData.phone}
                     placeholder="Phone Number"
                     required=""
                   />
@@ -135,11 +163,12 @@ const ContactUs = () => {
                   <textarea
                     name="message"
                     id="message"
+                    onChange={handleChange}
                     className="form-control"
+                    value={formData.message}
                     rows={4}
                     placeholder="Write Message"
                     required=""
-                    defaultValue={""}
                   />
                 </div>
               </div>
