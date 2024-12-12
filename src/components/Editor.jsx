@@ -476,10 +476,10 @@ export default function Editor({ onChange, content }) {
                     <div ref={editorRef}>{editorConfig && <CKEditor
                         contentEditable={true}
                         onInput={handleEditorChange}
-                        onChange={(event, editor) => {
-                            const data = editor.getData();
-                            console.log({ data });
-                        }}
+                        // onChange={(event, editor) => {
+                        //     const data = editor.getData();
+                        //     console.log({ data });
+                        // }}
                         editor={ClassicEditor}
                         config={editorConfig} />}
                     </div>

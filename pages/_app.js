@@ -66,7 +66,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="stylesheet" href="assets/css/style.css" />
 
       </Head>
-      <Script src="https://cdn.ckbox.io/ckbox/2.6.1/ckbox.js" crossOrigin="anonymous"/>
+      <Script src="https://cdn.ckbox.io/ckbox/2.6.1/ckbox.js" crossOrigin="anonymous" />
       {loading && <div className="preloader" />}
       <Component {...pageProps} />
       <ToastContainer

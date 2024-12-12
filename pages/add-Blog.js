@@ -2,7 +2,12 @@ import React, { useState } from "react";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layout/Layout";
 
-import Editor from "../src/components/editor";
+import dynamic from "next/dynamic";
+
+const Editor = dynamic(() => import("../src/components/editor"), {
+    ssr: false, // Disable server-side rendering
+});
+
 
 
 const AddBlog = () => {
@@ -158,7 +163,13 @@ const AddBlog = () => {
                                 </div>
                                 <div className="form-group">
                                     <label htmlFor="whatToInclude">What to Include</label>
-                                    <Editor onChange={handleWYSIWYGChange} content={formData.whatToInclude} />
+                                    <Editor
+                                        onChange={(event, editor) => {
+                                            const data = editor.getData();
+                                            onChange(event, editor);
+                                        }}
+                                        content={formData.whatToInclude}
+                                    />
                                 </div>
                                 <button type="submit" disabled={!isFormValid} className="submit-button">
                                     Add Blog

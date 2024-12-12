@@ -7,6 +7,10 @@ const nextConfig = {
       type: 'filesystem',
       allowCollectingMemory: true,
     };
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      "react-dom": "@hot-loader/react-dom",
+  };
     return config;
   },
 };
