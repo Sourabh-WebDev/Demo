@@ -269,7 +269,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
         <div className="container-fluid clearfix">
           <div className="header-inner d-flex align-items-center justify-content-between">
             <div className="logo-outer">
-              <div className="logo">
+              <div className="logo wow bounceIn delay-1-1s duration-2-0s">
                 <Link href="/">
                   <a>
                     <img
