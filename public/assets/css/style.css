@@ -3132,6 +3132,11 @@ h6,
   animation-delay: 1s;
 }
 
+.duration-2-0s {
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+}
+
 .delay-2-0s {
   -webkit-animation-delay: 2s;
   animation-delay: 2s;
@@ -3769,10 +3774,11 @@ h6,
   flex: none;
   padding: 25px 50px;
   position: relative;
-  border-radius: 12px;
+  border-radius: 5px;
   margin-top: -26px;
   margin-bottom: -26px;
-  background: #ffffffc2;
+  background:invert;
+  color: invert;
 }
 @media only screen and (max-width: 1700px) and (min-width: 1500px) {
   .main-header .logo {

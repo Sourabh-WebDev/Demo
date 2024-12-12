@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^44.0.0",
@@ -21,6 +22,7 @@
     "multer": "^1.4.5-lts.1",
     "next": "12.2.5",
     "next-connect": "^1.0.0",
+    "next-sitemap": "^4.2.3",
     "nodemailer": "^6.9.16",
     "react": "18.2.0",
     "react-bootstrap": "^1.6.1",
