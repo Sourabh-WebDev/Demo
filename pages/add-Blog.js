@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 // import PageBanner from "../src/components/PageBanner";
-// import Layout from "../src/layout/Layout";
+import Layout from "../src/layout/Layout";
 
 // import dynamic from "next/dynamic";
 
@@ -261,7 +261,6 @@ import React, { useState } from "react";
 
 // export default AddBlog;
 
-import React from 'react'
 
 const AddBlog = () => {
   return (
