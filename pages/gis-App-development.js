@@ -40,7 +40,7 @@ const gisAppDevelopment = () => {
                                 <div className="course-header">
                                     <span className="category">GIS App Development</span>
                                     <img src="assets/images/shapes/line-shape.png" alt="Line" />
-                                    <span className="off">30% off</span>
+                                    {/* <span className="off">30% off</span> */}
                                     <div className="ratting">
                                         <i className="fas fa-star" />
                                         <i className="fas fa-star" />
@@ -69,7 +69,7 @@ const gisAppDevelopment = () => {
                                 </ul> */}
                                 <div className="image mb-35">
                                     <img
-                                    width={768}
+                                        width={768}
                                         src="assets/images/newweb/GISM.jpg"
                                         alt="Course Details"
                                     />

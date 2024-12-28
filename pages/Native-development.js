@@ -11,7 +11,7 @@ const Nativedevelopment = () => {
     };
 
     const tasks = [
-        
+
         'Increase keyword quality score (improve landing page experience, ctr and ad relevancy)',
         'Improve the keywords performance using search term report (adding keywords and -ve keywords)',
         'Usage of conversion optimizer after 15 conversions in the account',
@@ -19,33 +19,33 @@ const Nativedevelopment = () => {
         'Re-marketing / Display campaign creation',
         'Merchant Center Account creation for E-commerce',
         'Uploading of shopping feed in the Merchant Center account',
-        
+
 
     ];
 
-  return (
-    <Layout>
-    <PageBanner pageName={"Native App Development"} img={" "} />
-    <section className="course-details-area pt-130 rpt-100">
-        <div className="container">
-            <div className="row large-gap">
-                <div className="col-lg-6">
-                    <div className="course-details-content">
-                        <div className="course-header">
-                            <span className="category">Native App  Development</span>
-                            <img src="assets/images/shapes/line-shape.png" alt="Line" />
-                            <span className="off">30% off</span>
-                            <div className="ratting">
-                                <i className="fas fa-star" />
-                                <i className="fas fa-star" />
-                                <i className="fas fa-star" />
-                                <i className="fas fa-star" />
-                                <i className="fas fa-star" />
-                                <span>(50)</span>
-                            </div>
-                        </div>
-                        <h2> Native App Development</h2>
-                        {/* <ul className="author-date-enroll">
+    return (
+        <Layout>
+            <PageBanner pageName={"Native App Development"} img={" "} />
+            <section className="course-details-area pt-130 rpt-100">
+                <div className="container">
+                    <div className="row large-gap">
+                        <div className="col-lg-6">
+                            <div className="course-details-content">
+                                <div className="course-header">
+                                    <span className="category">Native App  Development</span>
+                                    <img src="assets/images/shapes/line-shape.png" alt="Line" />
+                                    {/* <span className="off">30% off</span> */}
+                                    <div className="ratting">
+                                        <i className="fas fa-star" />
+                                        <i className="fas fa-star" />
+                                        <i className="fas fa-star" />
+                                        <i className="fas fa-star" />
+                                        <i className="fas fa-star" />
+                                        <span>(50)</span>
+                                    </div>
+                                </div>
+                                <h2> Native App Development</h2>
+                                {/* <ul className="author-date-enroll">
                             <li>
                                 <img
                                     src="assets/images/coachs/couse-author.jpg"
@@ -61,25 +61,25 @@ const Nativedevelopment = () => {
                                 <i className="far fa-user" /> 25 Enrolled
                             </li>
                         </ul> */}
-                        <div className="image mb-35">
-                            <img
-                                src="https://timedoor.net/wp-content/uploads/2022/09/Mobile-Apps-Development-2.png"
-                                alt="Course Details"
-                            />
-                        </div>
-                        <p>
-                        Native app development means creating a mobile application that is tailored and dedicated to a specified platform like iOS, or Android.
-                        Because native applications are built specifically for the operating system, they provide higher user engagement than hybrid apps.
-                         Native mobile apps generally perform and look better than their web-based counterparts, which must serve numerous platforms. Furthermore, 
-                         native mobile applications have access to devise hardware and capabilities, such as sensors and cameras, that are not available via a mobile browser interface alone.
-                         Native applications are more complicated to create than mobile websites. There's no need to be concerned about browser compatibility or behavior. You may use the native capabilities of mobile operating systems to create a richer user experience and implement app features.
+                                <div className="image mb-35">
+                                    <img
+                                        src="https://timedoor.net/wp-content/uploads/2022/09/Mobile-Apps-Development-2.png"
+                                        alt="Course Details"
+                                    />
+                                </div>
+                                <p>
+                                    Native app development means creating a mobile application that is tailored and dedicated to a specified platform like iOS, or Android.
+                                    Because native applications are built specifically for the operating system, they provide higher user engagement than hybrid apps.
+                                    Native mobile apps generally perform and look better than their web-based counterparts, which must serve numerous platforms. Furthermore,
+                                    native mobile applications have access to devise hardware and capabilities, such as sensors and cameras, that are not available via a mobile browser interface alone.
+                                    Native applications are more complicated to create than mobile websites. There's no need to be concerned about browser compatibility or behavior. You may use the native capabilities of mobile operating systems to create a richer user experience and implement app features.
 
 
 
-                        </p>
+                                </p>
 
-                      
-                        {/* <h3 className="mt-40">Requirements</h3>
+
+                                {/* <h3 className="mt-40">Requirements</h3>
                         <ul className="list-style-two mb-45">
                             <li>
                                 DevTools Debugging Tips And Shortcuts (Chrome, Firefox,
@@ -436,35 +436,35 @@ const Nativedevelopment = () => {
                                 </div>
                             </div>
                         </div> */}
-                    </div>
-                </div>
-                <div className="col-lg-6">
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
 
-                    <h3 className="mt-40">Native  App Development</h3>
-                    <ul className="list-style-two mb-45">
+                            <h3 className="mt-40">Native  App Development</h3>
+                            <ul className="list-style-two mb-45">
 
-                        {
-                            tasks.map((item) => (
+                                {
+                                    tasks.map((item) => (
+                                        <li>
+                                            {item}
+                                        </li>
+                                    ))
+                                }
                                 <li>
-                                    {item}
+                                    Swift Playgrounds, a learning platform for Swift development,
+
                                 </li>
-                            ))
-                        }
-                        <li>
-                        Swift Playgrounds, a learning platform for Swift development,
+                                <li>
+                                    iOS SDK integrated with the Cocoa Touch UI framework,
 
-                        </li>
-                        <li>
-                        iOS SDK integrated with the Cocoa Touch UI framework,
+                                </li>
+                                <li>
+                                    Users can interact with apps using actions and gestures they're already familiar with if they follow particular standards.</li>
+                            </ul>
 
-                        </li>
-                        <li>
-                        Users can interact with apps using actions and gestures they're already familiar with if they follow particular standards.</li>
-                    </ul>
 
-                  
 
-                    {/* <div className="course-sidebar rmt-75">
+                            {/* <div className="course-sidebar rmt-75">
                         <div className="widget widget-course-details wow fadeInUp delay-0-2s">
                             <div className="widget-video">
                                 <img
@@ -660,13 +660,13 @@ const Nativedevelopment = () => {
                             </ul>
                         </div>
                     </div> */}
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    {/* Course Details End */}
-    {/* Recent Coach Start */}
-    {/* <section className="coach-section-two rel z-1 pt-120 rpt-90 pb-130 rpb-100">
+            </section>
+            {/* Course Details End */}
+            {/* Recent Coach Start */}
+            {/* <section className="coach-section-two rel z-1 pt-120 rpt-90 pb-130 rpb-100">
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col-xl-6 col-lg-7 col-md-8">
@@ -932,9 +932,9 @@ const Nativedevelopment = () => {
             </Slider>
         </div>
     </section> */}
-</Layout>
+        </Layout>
 
-  )
+    )
 }
 
 export default Nativedevelopment

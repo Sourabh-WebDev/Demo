@@ -4,47 +4,47 @@ import Layout from '../src/layout/Layout'
 
 const contentservices = () => {
 
-  const [active, setActive] = useState(`collapse1`);
-  const onClick = (value) => {
-    console.log(value);
-    setActive(value === active ? "" : value);
-  };
+    const [active, setActive] = useState(`collapse1`);
+    const onClick = (value) => {
+        console.log(value);
+        setActive(value === active ? "" : value);
+    };
 
-  const tasks = [
-    'Website Content Writing Services',
-    ' Blog Post Writing Services ',
-    'SEO Copy Writing Services',
-    'Weekly campaign optimization to maintain leads and cost per lead',
-    'Article Writing Services',
-    'Merchant Center Account creation for E-commerce',
-    'Uploading of shopping feed in the Merchant Center account',
-    'Dynamic Re-marketing campaign'
+    const tasks = [
+        'Website Content Writing Services',
+        ' Blog Post Writing Services ',
+        'SEO Copy Writing Services',
+        'Weekly campaign optimization to maintain leads and cost per lead',
+        'Article Writing Services',
+        'Merchant Center Account creation for E-commerce',
+        'Uploading of shopping feed in the Merchant Center account',
+        'Dynamic Re-marketing campaign'
 
-  ];
+    ];
 
-  return (
-    <Layout>
-      <PageBanner pageName={"Content Writing Services"} img={"https://www.4seohelp.com/wp-content/uploads/2022/03/Content-Writing-Agencies-780x470.jpg"} />
-      <section className="course-details-area pt-130 rpt-100">
-        <div className="container">
-          <div className="row large-gap">
-            <div className="col-lg-6">
-              <div className="course-details-content">
-                <div className="course-header">
-                  <span className="category">Content Writing Services</span>
-                  <img src="assets/images/shapes/line-shape.png" alt="Line" />
-                  <span className="off">30% off</span>
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <span>(50)</span>
-                  </div>
-                </div>
-                <h2> Content Writing Services</h2>
-                {/* <ul className="author-date-enroll">
+    return (
+        <Layout>
+            <PageBanner pageName={"Content Writing Services"} img={"https://www.4seohelp.com/wp-content/uploads/2022/03/Content-Writing-Agencies-780x470.jpg"} />
+            <section className="course-details-area pt-130 rpt-100">
+                <div className="container">
+                    <div className="row large-gap">
+                        <div className="col-lg-6">
+                            <div className="course-details-content">
+                                <div className="course-header">
+                                    <span className="category">Content Writing Services</span>
+                                    <img src="assets/images/shapes/line-shape.png" alt="Line" />
+                                    {/* <span className="off">30% off</span> */}
+                                    <div className="ratting">
+                                        <i className="fas fa-star" />
+                                        <i className="fas fa-star" />
+                                        <i className="fas fa-star" />
+                                        <i className="fas fa-star" />
+                                        <i className="fas fa-star" />
+                                        <span>(50)</span>
+                                    </div>
+                                </div>
+                                <h2> Content Writing Services</h2>
+                                {/* <ul className="author-date-enroll">
                             <li>
                                 <img
                                     src="assets/images/coachs/couse-author.jpg"
@@ -60,21 +60,21 @@ const contentservices = () => {
                                 <i className="far fa-user" /> 25 Enrolled
                             </li>
                         </ul> */}
-                <div className="image mb-35">
-                  <img
-                    src="https://ebizfiling.com/wp-content/uploads/2022/05/content-writing-2-768x512.png"
-                    alt="Course Details"
-                  />
-                </div>
-                <p>
-                  “Content” which was termed as King of Internet has now become the Lifeline of Digital Marketing;
-                  the journey itself explains the vitality and impact of content. From engaging audience and sharing information to boosting search engine rankings,
-                  content does that all. A content that works drives quality web traffic, builds strong brand image & online reputation, gains higher ranking on search engines, adds value and boosts trust-score.
-                  To get such content choose WeblinkIndia, which stands out with its
-                </p>
+                                <div className="image mb-35">
+                                    <img
+                                        src="https://ebizfiling.com/wp-content/uploads/2022/05/content-writing-2-768x512.png"
+                                        alt="Course Details"
+                                    />
+                                </div>
+                                <p>
+                                    “Content” which was termed as King of Internet has now become the Lifeline of Digital Marketing;
+                                    the journey itself explains the vitality and impact of content. From engaging audience and sharing information to boosting search engine rankings,
+                                    content does that all. A content that works drives quality web traffic, builds strong brand image & online reputation, gains higher ranking on search engines, adds value and boosts trust-score.
+                                    To get such content choose WeblinkIndia, which stands out with its
+                                </p>
 
 
-                {/* <h3 className="mt-40">Requirements</h3>
+                                {/* <h3 className="mt-40">Requirements</h3>
                         <ul className="list-style-two mb-45">
                             <li>
                                 DevTools Debugging Tips And Shortcuts (Chrome, Firefox,
@@ -431,35 +431,35 @@ const contentservices = () => {
                                 </div>
                             </div>
                         </div> */}
-              </div>
-            </div>
-            <div className="col-lg-6">
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
 
-              <h3 className="mt-40">Content Writing Services We Offer</h3>
-              <ul className="list-style-two mb-45">
+                            <h3 className="mt-40">Content Writing Services We Offer</h3>
+                            <ul className="list-style-two mb-45">
 
-                {
-                  tasks.map((item) => (
-                    <li>
-                      {item}
-                    </li>
-                  ))
-                }
-                <li>
-                  Text editors, such as Notepad or TextEdit, where content and HTML markup are manipulated directly within the editor program
+                                {
+                                    tasks.map((item) => (
+                                        <li>
+                                            {item}
+                                        </li>
+                                    ))
+                                }
+                                <li>
+                                    Text editors, such as Notepad or TextEdit, where content and HTML markup are manipulated directly within the editor program
 
-                </li>
-                <li>
-                Interactive and Engaging Content
-                </li>
-                <li>
-                Article Writing Services 
-                </li>
-              </ul>
+                                </li>
+                                <li>
+                                    Interactive and Engaging Content
+                                </li>
+                                <li>
+                                    Article Writing Services
+                                </li>
+                            </ul>
 
 
 
-              {/* <div className="course-sidebar rmt-75">
+                            {/* <div className="course-sidebar rmt-75">
                         <div className="widget widget-course-details wow fadeInUp delay-0-2s">
                             <div className="widget-video">
                                 <img
@@ -655,13 +655,13 @@ const contentservices = () => {
                             </ul>
                         </div>
                     </div> */}
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Course Details End */}
-      {/* Recent Coach Start */}
-      {/* <section className="coach-section-two rel z-1 pt-120 rpt-90 pb-130 rpb-100">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* Course Details End */}
+            {/* Recent Coach Start */}
+            {/* <section className="coach-section-two rel z-1 pt-120 rpt-90 pb-130 rpb-100">
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col-xl-6 col-lg-7 col-md-8">
@@ -927,9 +927,9 @@ const contentservices = () => {
             </Slider>
         </div>
     </section> */}
-    </Layout>
+        </Layout>
 
-  )
+    )
 }
 
 export default contentservices

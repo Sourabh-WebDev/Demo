@@ -11,7 +11,7 @@ const logoservices = () => {
     };
 
     const tasks = [
-    
+
         'Logo design is undertaken after a thorough analysis of your brand',
         'Improve the keywords performance using search term report (adding keywords and -ve keywords)',
         'Usage of conversion optimizer after 15 conversions in the account',
@@ -23,9 +23,9 @@ const logoservices = () => {
 
     ];
 
-  return (
+    return (
 
-    <Layout>
+        <Layout>
             <PageBanner pageName={"Logo Design Services"} img={"https://www.homebaseworks.in/storage/talents/1668822810/i-can-create-trendy-logo-designbanner-adfor-you.png"} />
             <section className="course-details-area pt-130 rpt-100">
                 <div className="container">
@@ -35,7 +35,7 @@ const logoservices = () => {
                                 <div className="course-header">
                                     <span className="category">Logo Design Services</span>
                                     <img src="assets/images/shapes/line-shape.png" alt="Line" />
-                                    <span className="off">30% off</span>
+                                    {/* <span className="off">30% off</span> */}
                                     <div className="ratting">
                                         <i className="fas fa-star" />
                                         <i className="fas fa-star" />
@@ -69,13 +69,13 @@ const logoservices = () => {
                                     />
                                 </div>
                                 <p>
-                                Logo isn’t just a graphic with vibrant colors or a catchy pattern; it is rather the quickest introduction of your business thoughts, 
-                                vision and values. A logo embodies your business and brand in the way nothing else does. 
-                                That is why designing a Logo is the most crucial area of graphical designing and the most difficult area to master as well.
-                                 When expertise to create a design that connects with audience meets the brilliance of designing techniques, then a logo is created which is clear, 
-                                 crisp and creative. A technically excellent logo doesn’t change its effectiveness whether resized or presented in full color, black and white or half tone shades. 
-                                 We welcome your creative thoughts. Share your ideas with us and our talented graphic designers can translate your vision and create logo designs based on your concept. We can also provide alternative suggestions – the more the merrier!
-                                </p> 
+                                    Logo isn’t just a graphic with vibrant colors or a catchy pattern; it is rather the quickest introduction of your business thoughts,
+                                    vision and values. A logo embodies your business and brand in the way nothing else does.
+                                    That is why designing a Logo is the most crucial area of graphical designing and the most difficult area to master as well.
+                                    When expertise to create a design that connects with audience meets the brilliance of designing techniques, then a logo is created which is clear,
+                                    crisp and creative. A technically excellent logo doesn’t change its effectiveness whether resized or presented in full color, black and white or half tone shades.
+                                    We welcome your creative thoughts. Share your ideas with us and our talented graphic designers can translate your vision and create logo designs based on your concept. We can also provide alternative suggestions – the more the merrier!
+                                </p>
                                 {/* <h3 className="mt-40">Requirements</h3>
                                 <ul className="list-style-two mb-45">
                                     <li>
@@ -448,12 +448,12 @@ const logoservices = () => {
                                     ))
                                 }
                                 <li>
-                                We have many packages to suit various business logo design needs.
+                                    We have many packages to suit various business logo design needs.
                                 </li>
                                 <li>
-                                We provide varied and multiple design concepts for our clients to choose from.
+                                    We provide varied and multiple design concepts for our clients to choose from.
                                 </li>
-                               
+
                             </ul>
                             {/* <div className="course-sidebar rmt-75">
                                 <div className="widget widget-course-details wow fadeInUp delay-0-2s">
@@ -925,7 +925,7 @@ const logoservices = () => {
             </section> */}
         </Layout>
 
-  )
+    )
 }
 
 export default logoservices

@@ -361,12 +361,12 @@ const Header1 = ({ navToggle, setNavToggle }) => (
           <div className="container-fluid clearfix">
             <div className="header-inner d-flex align-items-center justify-content-between">
               <div className="logo-outer d-lg-flex align-items-center">
-                <div className="logo wow rotateIn duration-2-0s">
+                <div className="logo">
                   <Link href="/">
                     <a>
                       <img
-                        // height={120}
-                        // width={200}
+                        height={100}
+                        width={100}
                         className="mt-2"
                         src="assets/images/newlogos/ApexpathMain.png"
                         alt="Logo"

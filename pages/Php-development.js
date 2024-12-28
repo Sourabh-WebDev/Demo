@@ -18,65 +18,65 @@ const phpdevelopment = () => {
 
     ];
 
-  return (
-    <Layout>
-    <PageBanner pageName={"Php Development"} img={"https://static.weblinkindia.net/images/php-banner.webp"} />
-    <section className="course-details-area pt-130 rpt-100">
-        <div className="container">
-            <div className="row large-gap">
-                <div className="col-lg-6">
-                    <div className="course-details-content">
-                        <div className="course-header">
-                            <span className="category">Php Development</span>
-                            <img src="assets/images/shapes/line-shape.png" alt="Line" />
-                            <span className="off">30% off</span>
-                            <div className="ratting">
-                                <i className="fas fa-star" />
-                                <i className="fas fa-star" />
-                                <i className="fas fa-star" />
-                                <i className="fas fa-star" />
-                                <i className="fas fa-star" />
-                                <span>(50)</span>
-                            </div>
-                        </div>
-                        <h2> Php Development</h2>
-                        
-                        <div className="image mb-35">
-                            <img
-                                src="https://static.weblinkindia.net/images/php-img3.webp"
-                                alt="Course Details"
-                            />
-                        </div>
-                        <p>
-                            It is primarily coded in Hypertext Markup Language (HTML); Cascading Style Sheets (CSS) are used to control appearance beyond basic HTML.
-                            Images are commonly used to effect the desired appearance and as part of the main content. Audio or video might also be considered “static” content if it plays automatically or is generally non-interactive.
-                            This type of website usually displays the same information to all visitors. a static website will generally provide consistent. This may include information about a company and its products and services through text, photos, animations, audio/video, and navigation menus.
+    return (
+        <Layout>
+            <PageBanner pageName={"Php Development"} img={"https://static.weblinkindia.net/images/php-banner.webp"} />
+            <section className="course-details-area pt-130 rpt-100">
+                <div className="container">
+                    <div className="row large-gap">
+                        <div className="col-lg-6">
+                            <div className="course-details-content">
+                                <div className="course-header">
+                                    <span className="category">Php Development</span>
+                                    <img src="assets/images/shapes/line-shape.png" alt="Line" />
+                                    {/* <span className="off">30% off</span> */}
+                                    <div className="ratting">
+                                        <i className="fas fa-star" />
+                                        <i className="fas fa-star" />
+                                        <i className="fas fa-star" />
+                                        <i className="fas fa-star" />
+                                        <i className="fas fa-star" />
+                                        <span>(50)</span>
+                                    </div>
+                                </div>
+                                <h2> Php Development</h2>
 
-                        </p>
-                        <p>
-                        With biggest brands like Wikipedia, Facebook, and WordPress deploying PHP for their website development, it wont be wrong to call PHP, the programming language of the present as well as coming future.  
-                    <b>PHP web development </b>  at WeblinkIndia excel in PHP website development to create sites that are custom-made to mirror the business brand image.
+                                <div className="image mb-35">
+                                    <img
+                                        src="https://static.weblinkindia.net/images/php-img3.webp"
+                                        alt="Course Details"
+                                    />
+                                </div>
+                                <p>
+                                    It is primarily coded in Hypertext Markup Language (HTML); Cascading Style Sheets (CSS) are used to control appearance beyond basic HTML.
+                                    Images are commonly used to effect the desired appearance and as part of the main content. Audio or video might also be considered “static” content if it plays automatically or is generally non-interactive.
+                                    This type of website usually displays the same information to all visitors. a static website will generally provide consistent. This may include information about a company and its products and services through text, photos, animations, audio/video, and navigation menus.
 
-                            <ul className="list-style-two mb-45">
-                                <li>
-                                Custom PHP Web/App development
-                                </li>
-                                <li>
-                                Custom PHP Programming
-                                </li>
-                                <li>
-                                    Cross-platform, meaning you can use it for iOS and Android.
-                                </li>
+                                </p>
+                                <p>
+                                    With biggest brands like Wikipedia, Facebook, and WordPress deploying PHP for their website development, it wont be wrong to call PHP, the programming language of the present as well as coming future.
+                                    <b>PHP web development </b>  at WeblinkIndia excel in PHP website development to create sites that are custom-made to mirror the business brand image.
 
-                                <li>
-                                Framework Development
-                                </li>
-                                <li>
-                                    Easy testing.
-                                </li>
-                            </ul>
-                        </p>
-                        {/* <h3 className="mt-40">Requirements</h3>
+                                    <ul className="list-style-two mb-45">
+                                        <li>
+                                            Custom PHP Web/App development
+                                        </li>
+                                        <li>
+                                            Custom PHP Programming
+                                        </li>
+                                        <li>
+                                            Cross-platform, meaning you can use it for iOS and Android.
+                                        </li>
+
+                                        <li>
+                                            Framework Development
+                                        </li>
+                                        <li>
+                                            Easy testing.
+                                        </li>
+                                    </ul>
+                                </p>
+                                {/* <h3 className="mt-40">Requirements</h3>
                         <ul className="list-style-two mb-45">
                             <li>
                                 DevTools Debugging Tips And Shortcuts (Chrome, Firefox,
@@ -433,42 +433,42 @@ const phpdevelopment = () => {
                                 </div>
                             </div>
                         </div> */}
-                    </div>
-                </div>
-                <div className="col-lg-6">
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
 
-                    <h3 className="mt-40">Static website</h3>
-                    <ul className="list-style-two mb-45">
+                            <h3 className="mt-40">Static website</h3>
+                            <ul className="list-style-two mb-45">
 
-                        {
-                            tasks.map((item) => (
+                                {
+                                    tasks.map((item) => (
+                                        <li>
+                                            {item}
+                                        </li>
+                                    ))
+                                }
                                 <li>
-                                    {item}
+                                    Text editors, such as Notepad or TextEdit, where content and HTML markup are manipulated directly within the editor program
+
                                 </li>
-                            ))
-                        }
-                        <li>
-                            Text editors, such as Notepad or TextEdit, where content and HTML markup are manipulated directly within the editor program
+                                <li>
+                                    Our draft
+                                    <b>PHP developers in India</b>
+                                    precisely examine the vertical & core necessities of your business.
+                                </li>
+                                <li>
+                                    WYSIWYG online editors which create media rich online presentation like web pages, widgets, intro, blogs, and other documents.
+                                </li>
+                            </ul>
 
-                        </li>
-                        <li>
-                        Our draft 
-                            <b>PHP developers in India</b>
-                        precisely examine the vertical & core necessities of your business.
-                        </li>
-                        <li>
-                            WYSIWYG online editors which create media rich online presentation like web pages, widgets, intro, blogs, and other documents.
-                        </li>
-                    </ul>
+                            <div className="image mb-35">
+                                <img
+                                    src="https://5.imimg.com/data5/MA/HR/BH/SELLER-56858655/php-development-500x500.png"
+                                    alt="Course Details"
+                                />
+                            </div>
 
-                    <div className="image mb-35">
-                        <img
-                            src="https://5.imimg.com/data5/MA/HR/BH/SELLER-56858655/php-development-500x500.png"
-                            alt="Course Details"
-                        />
-                    </div>
-
-                    {/* <div className="course-sidebar rmt-75">
+                            {/* <div className="course-sidebar rmt-75">
                         <div className="widget widget-course-details wow fadeInUp delay-0-2s">
                             <div className="widget-video">
                                 <img
@@ -664,13 +664,13 @@ const phpdevelopment = () => {
                             </ul>
                         </div>
                     </div> */}
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    {/* Course Details End */}
-    {/* Recent Coach Start */}
-    {/* <section className="coach-section-two rel z-1 pt-120 rpt-90 pb-130 rpb-100">
+            </section>
+            {/* Course Details End */}
+            {/* Recent Coach Start */}
+            {/* <section className="coach-section-two rel z-1 pt-120 rpt-90 pb-130 rpb-100">
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col-xl-6 col-lg-7 col-md-8">
@@ -936,8 +936,8 @@ const phpdevelopment = () => {
             </Slider>
         </div>
     </section> */}
-</Layout>
-  )
+        </Layout>
+    )
 }
 
 export default phpdevelopment

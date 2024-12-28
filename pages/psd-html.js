@@ -17,7 +17,7 @@ const psdhtml = () => {
         'Technology, Creativity, and Business, are threaded together to extract the best of the web for your brand with our experienced customer-first approach and a team in love with web design technology. ',
         'Implementation of Re-marketing & Conversion tracking code on the site',
         'Increase keyword quality score (improve landing page experience, ctr and ad relevancy)',
-       
+
     ];
     return (
 
@@ -31,7 +31,7 @@ const psdhtml = () => {
                                 <div className="course-header">
                                     <span className="category">Quick Conversion Of PSD Files To HTML</span>
                                     <img src="assets/images/shapes/line-shape.png" alt="Line" />
-                                    <span className="off">30% off</span>
+                                    {/* <span className="off">30% off</span> */}
                                     <div className="ratting">
                                         <i className="fas fa-star" />
                                         <i className="fas fa-star" />

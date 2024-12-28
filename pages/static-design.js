@@ -34,7 +34,7 @@ const staticdesign = () => {
                                 <div className="course-header">
                                     <span className="category">Static Web Design</span>
                                     <img src="assets/images/shapes/line-shape.png" alt="Line" />
-                                    <span className="off">30% off</span>
+                                    {/* <span className="off">30% off</span> */}
                                     <div className="ratting">
                                         <i className="fas fa-star" />
                                         <i className="fas fa-star" />
@@ -68,9 +68,9 @@ const staticdesign = () => {
                                     />
                                 </div>
                                 <p>
-                                Static websites empower you to present and promote your brand, products or services on the web in the most simple, effective, and economical manner. 
-                                They are the quickest and easiest way to create and manage an online presence. Our creative web designers understand your business requirement, 
-                                combine their technical expertise with their creative and innovative thinking to come up with the most engaging and intuitive static website in the shortest time. 
+                                    Static websites empower you to present and promote your brand, products or services on the web in the most simple, effective, and economical manner.
+                                    They are the quickest and easiest way to create and manage an online presence. Our creative web designers understand your business requirement,
+                                    combine their technical expertise with their creative and innovative thinking to come up with the most engaging and intuitive static website in the shortest time.
                                 </p>
 
 

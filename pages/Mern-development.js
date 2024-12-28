@@ -3,45 +3,45 @@ import PageBanner from '../src/components/PageBanner'
 import Layout from '../src/layout/Layout'
 
 const Merndevelopment = () => {
-  const [active, setActive] = useState(`collapse1`);
-  const onClick = (value) => {
-    console.log(value);
-    setActive(value === active ? "" : value);
-  };
+    const [active, setActive] = useState(`collapse1`);
+    const onClick = (value) => {
+        console.log(value);
+        setActive(value === active ? "" : value);
+    };
 
-  const tasks = [
-    'React is a JavaScript library for building user interfaces',
-    ' The MERN stack is relatively cost-effective, as there are no expensive licensing fees',
-    'Re-marketing / Display campaign creation',
-    'Merchant Center Account creation for E-commerce',
-    'Uploading of shopping feed in the Merchant Center account',
-    'Node.js is a JavaScript runtime environment that allows you to run JavaScript code outside of a browser.'
+    const tasks = [
+        'React is a JavaScript library for building user interfaces',
+        ' The MERN stack is relatively cost-effective, as there are no expensive licensing fees',
+        'Re-marketing / Display campaign creation',
+        'Merchant Center Account creation for E-commerce',
+        'Uploading of shopping feed in the Merchant Center account',
+        'Node.js is a JavaScript runtime environment that allows you to run JavaScript code outside of a browser.'
 
-  ];
+    ];
 
-  return (
-    <Layout>
-      <PageBanner pageName={"MERN Development"} img={""} />
-      <section className="course-details-area pt-130 rpt-100">
-        <div className="container">
-          <div className="row large-gap">
-            <div className="col-lg-6">
-              <div className="course-details-content">
-                <div className="course-header">
-                  <span className="category">MERN Development</span>
-                  <img src="assets/images/shapes/line-shape.png" alt="Line" />
-                  <span className="off">30% off</span>
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <span>(50)</span>
-                  </div>
-                </div>
-                <h2> MERN Development</h2>
-                {/* <ul className="author-date-enroll">
+    return (
+        <Layout>
+            <PageBanner pageName={"MERN Development"} img={""} />
+            <section className="course-details-area pt-130 rpt-100">
+                <div className="container">
+                    <div className="row large-gap">
+                        <div className="col-lg-6">
+                            <div className="course-details-content">
+                                <div className="course-header">
+                                    <span className="category">MERN Development</span>
+                                    <img src="assets/images/shapes/line-shape.png" alt="Line" />
+                                    {/* <span className="off">30% off</span> */}
+                                    <div className="ratting">
+                                        <i className="fas fa-star" />
+                                        <i className="fas fa-star" />
+                                        <i className="fas fa-star" />
+                                        <i className="fas fa-star" />
+                                        <i className="fas fa-star" />
+                                        <span>(50)</span>
+                                    </div>
+                                </div>
+                                <h2> MERN Development</h2>
+                                {/* <ul className="author-date-enroll">
                                     <li>
                                         <img
                                             src="assets/images/coachs/couse-author.jpg"
@@ -57,39 +57,39 @@ const Merndevelopment = () => {
                                         <i className="far fa-user" /> 25 Enrolled
                                     </li>
                                 </ul> */}
-                <div className="image mb-35">
-                  <img
-                    src="https://tricklesolutions.com/wp-content/uploads/2019/03/top-app-development-companies-1560x1080.jpg"
-                    alt="Course Details"
-                  />
-                </div>
-                <p>
-                Web develoment refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. One of the most famous stack that is used for Web Development is MERN stack.
-                Yes, MERN is a full stack, following the traditional three-tier architectural pattern, including the front-end display tier (React.js), application tier (Express.js and Node.js), and database tier (MongoDB).
-                </p>
-                <p>
-                  Mern Stack is a collection of technologies that enables faster application development. It is used by developers worldwide. The main purpose of using MERN stack is to develop apps using JavaScript only. This is because the four technologies that make up the technology stack are all JS-based .
-                  ReactJS is a JS library that allows the development of user interfaces for mobile apps and SPAs. It allows you to code JavaScript and develop UI components. The JS library uses virtual DOM for doing everything.
-                  <ul className="list-style-two mb-45">
-                    <li>
-                      Faster development.
-                    </li>
-                    <li>
-                      Native interface creation.
-                    </li>
-                    <li>
-                      Cross-platform, meaning you can use it for iOS and Android.
-                    </li>
+                                <div className="image mb-35">
+                                    <img
+                                        src="https://tricklesolutions.com/wp-content/uploads/2019/03/top-app-development-companies-1560x1080.jpg"
+                                        alt="Course Details"
+                                    />
+                                </div>
+                                <p>
+                                    Web develoment refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. One of the most famous stack that is used for Web Development is MERN stack.
+                                    Yes, MERN is a full stack, following the traditional three-tier architectural pattern, including the front-end display tier (React.js), application tier (Express.js and Node.js), and database tier (MongoDB).
+                                </p>
+                                <p>
+                                    Mern Stack is a collection of technologies that enables faster application development. It is used by developers worldwide. The main purpose of using MERN stack is to develop apps using JavaScript only. This is because the four technologies that make up the technology stack are all JS-based .
+                                    ReactJS is a JS library that allows the development of user interfaces for mobile apps and SPAs. It allows you to code JavaScript and develop UI components. The JS library uses virtual DOM for doing everything.
+                                    <ul className="list-style-two mb-45">
+                                        <li>
+                                            Faster development.
+                                        </li>
+                                        <li>
+                                            Native interface creation.
+                                        </li>
+                                        <li>
+                                            Cross-platform, meaning you can use it for iOS and Android.
+                                        </li>
 
-                    <li>
-                      Efficient, fast & scalable
-                    </li>
-                    <li>
-                      Easy testing.
-                    </li>
-                  </ul>
-                </p>
-                {/* <h3 className="mt-40">Requirements</h3>
+                                        <li>
+                                            Efficient, fast & scalable
+                                        </li>
+                                        <li>
+                                            Easy testing.
+                                        </li>
+                                    </ul>
+                                </p>
+                                {/* <h3 className="mt-40">Requirements</h3>
                                 <ul className="list-style-two mb-45">
                                     <li>
                                         DevTools Debugging Tips And Shortcuts (Chrome, Firefox,
@@ -446,37 +446,37 @@ const Merndevelopment = () => {
                                         </div>
                                     </div>
                                 </div> */}
-              </div>
-            </div>
-            <div className="col-lg-6">
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
 
-              <h3 className="mt-40">MERN Development</h3>
-              <ul className="list-style-two mb-45">
+                            <h3 className="mt-40">MERN Development</h3>
+                            <ul className="list-style-two mb-45">
 
-                {
-                  tasks.map((item) => (
-                    <li>
-                      {item}
-                    </li>
-                  ))
-                }
-                <li>
-                Express is a web application framework that provides a robust set of features for routing, middleware, and templating.
+                                {
+                                    tasks.map((item) => (
+                                        <li>
+                                            {item}
+                                        </li>
+                                    ))
+                                }
+                                <li>
+                                    Express is a web application framework that provides a robust set of features for routing, middleware, and templating.
 
-                </li>
-                <li>
-                MongoDB is a NoSQL database that is well-suited for storing JSON-like documents.
-                </li>
-              </ul>
+                                </li>
+                                <li>
+                                    MongoDB is a NoSQL database that is well-suited for storing JSON-like documents.
+                                </li>
+                            </ul>
 
-              <div className="image mb-35">
-                <img
-                  src="https://www.bigscal.com/wp-content/uploads/2022/09/Features-of-Mern-stack-development-services-You-Should-Know.png"
-                  alt="Course Details"
-                />
-              </div>
+                            <div className="image mb-35">
+                                <img
+                                    src="https://www.bigscal.com/wp-content/uploads/2022/09/Features-of-Mern-stack-development-services-You-Should-Know.png"
+                                    alt="Course Details"
+                                />
+                            </div>
 
-              {/* <div className="course-sidebar rmt-75">
+                            {/* <div className="course-sidebar rmt-75">
                                 <div className="widget widget-course-details wow fadeInUp delay-0-2s">
                                     <div className="widget-video">
                                         <img
@@ -672,13 +672,13 @@ const Merndevelopment = () => {
                                     </ul>
                                 </div>
                             </div> */}
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Course Details End */}
-      {/* Recent Coach Start */}
-      {/* <section className="coach-section-two rel z-1 pt-120 rpt-90 pb-130 rpb-100">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* Course Details End */}
+            {/* Recent Coach Start */}
+            {/* <section className="coach-section-two rel z-1 pt-120 rpt-90 pb-130 rpb-100">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-xl-6 col-lg-7 col-md-8">
@@ -944,8 +944,8 @@ const Merndevelopment = () => {
                     </Slider>
                 </div>
             </section> */}
-    </Layout>
-  )
+        </Layout>
+    )
 }
 
 export default Merndevelopment

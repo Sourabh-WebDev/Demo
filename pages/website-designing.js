@@ -5,58 +5,58 @@ import WellernAccordion from '../src/components/WellernAccordion'
 import { Accordion } from 'react-bootstrap'
 import Link from 'next/link'
 
-const websiteDesigning= () => {
+const websiteDesigning = () => {
 
-  const [active, setActive] = useState(`collapse1`);
-  const onClick = (value) => {
-      console.log(value);
-      setActive(value === active ? "" : value);
-  };
+    const [active, setActive] = useState(`collapse1`);
+    const onClick = (value) => {
+        console.log(value);
+        setActive(value === active ? "" : value);
+    };
 
-  const tasks = [
-      'Beautiful & Functional Layout',
-      'Responsive In All Devices',
-      'User & SEO Friendly',
-      'Ad Copy and creative creation',
-      'Basic Campaign creation',
-      'Implementation of Re-marketing & Conversion tracking code on the site',
-      'Increase keyword quality score (improve landing page experience, ctr and ad relevancy)',
-      'Improve the keywords performance using search term report (adding keywords and -ve keywords)',
-      'Usage of conversion optimizer after 15 conversions in the account',
-      'Weekly campaign optimization to maintain leads and cost per lead',
-      'Re-marketing / Display campaign creation',
-      'GSP Campaign Creation',
-      'Merchant Center Account creation for E-commerce',
-      'Uploading of shopping feed in the Merchant Center account',
-      'Shopping Campaign',
-      'Dynamic Re-marketing campaign'
-     
-  ];
+    const tasks = [
+        'Beautiful & Functional Layout',
+        'Responsive In All Devices',
+        'User & SEO Friendly',
+        'Ad Copy and creative creation',
+        'Basic Campaign creation',
+        'Implementation of Re-marketing & Conversion tracking code on the site',
+        'Increase keyword quality score (improve landing page experience, ctr and ad relevancy)',
+        'Improve the keywords performance using search term report (adding keywords and -ve keywords)',
+        'Usage of conversion optimizer after 15 conversions in the account',
+        'Weekly campaign optimization to maintain leads and cost per lead',
+        'Re-marketing / Display campaign creation',
+        'GSP Campaign Creation',
+        'Merchant Center Account creation for E-commerce',
+        'Uploading of shopping feed in the Merchant Center account',
+        'Shopping Campaign',
+        'Dynamic Re-marketing campaign'
 
-  
-  return (
-      <Layout>
-          <PageBanner pageName={"Website Designing"} img={'assets/images/newweb/webdesigner.jpg'} />
-          <section className="course-details-area pt-130 rpt-100">
-              <div className="container">
-                  <div className="row large-gap">
-                      <div className="col-lg-6">
-                          <div className="course-details-content">
-                              <div className="course-header">
-                                  <span className="category">Website Designing</span>
-                                  <img src="assets/images/shapes/line-shape.png" alt="Line" />
-                                  <span className="off">30% off</span>
-                                  <div className="ratting">
-                                      <i className="fas fa-star" />
-                                      <i className="fas fa-star" />
-                                      <i className="fas fa-star" />
-                                      <i className="fas fa-star" />
-                                      <i className="fas fa-star" />
-                                      <span>(50)</span>
-                                  </div>
-                              </div>
-                              <h2>Responsive All Devices</h2>
-                              {/* <ul className="author-date-enroll">
+    ];
+
+
+    return (
+        <Layout>
+            <PageBanner pageName={"Website Designing"} img={'assets/images/newweb/webdesigner.jpg'} />
+            <section className="course-details-area pt-130 rpt-100">
+                <div className="container">
+                    <div className="row large-gap">
+                        <div className="col-lg-6">
+                            <div className="course-details-content">
+                                <div className="course-header">
+                                    <span className="category">Website Designing</span>
+                                    <img src="assets/images/shapes/line-shape.png" alt="Line" />
+                                    {/* <span className="off">30% off</span> */}
+                                    <div className="ratting">
+                                        <i className="fas fa-star" />
+                                        <i className="fas fa-star" />
+                                        <i className="fas fa-star" />
+                                        <i className="fas fa-star" />
+                                        <i className="fas fa-star" />
+                                        <span>(50)</span>
+                                    </div>
+                                </div>
+                                <h2>Responsive All Devices</h2>
+                                {/* <ul className="author-date-enroll">
                                   <li>
                                       <img
                                           src="assets/images/coachs/couse-author.jpg"
@@ -72,19 +72,19 @@ const websiteDesigning= () => {
                                       <i className="far fa-user" /> 25 Enrolled
                                   </li>
                               </ul> */}
-                              <div className="image mb-35">
-                                  <img
-                                      src="https://omsoftsolution.com//wp-content/uploads/2023/03/coding-boy.gif"
-                                      alt="Coding img"
-                                  />
-                              </div>
-                              <h3>Hire Dedicated Web Designer:-</h3>
-                              <p>   
-                              If you run multiple websites, you know maintaining them is a tough task.  By hiring a dedicated web designer, you have complete involvement and direct control over the web solutions that are provided to you. There is unshared focus on integrating your visions and concepts in exactly the way you want. With the financial benefits of off-shore development, you enjoy the control of in-house staff. Leading companies around the globe have been doing this with great success. You may follow their lead and hire dedicated web designers to reap the outlined benefits. We are there to assist you at every single step.
-                              In 5 seconds, a Mobile Web Visitor Decides to Stay or Leave! Mobile Web Traffic is Task-Oriented & Buys More Often, therefore, to lure them a high-performance mobile website is what you will need to cash in! Get a Responsive Website that presents optimal viewing experience across a range of digital media platforms, and who could be better than us to do it for you? If you think a stunning, fully-loaded Desktop Website is good enough as a lead generation tool, there are reasons to rethink. “A simple and highly functional mobile website by us can return you the opportunity for conversions that you might have missed!”
+                                <div className="image mb-35">
+                                    <img
+                                        src="https://omsoftsolution.com//wp-content/uploads/2023/03/coding-boy.gif"
+                                        alt="Coding img"
+                                    />
+                                </div>
+                                <h3>Hire Dedicated Web Designer:-</h3>
+                                <p>
+                                    If you run multiple websites, you know maintaining them is a tough task.  By hiring a dedicated web designer, you have complete involvement and direct control over the web solutions that are provided to you. There is unshared focus on integrating your visions and concepts in exactly the way you want. With the financial benefits of off-shore development, you enjoy the control of in-house staff. Leading companies around the globe have been doing this with great success. You may follow their lead and hire dedicated web designers to reap the outlined benefits. We are there to assist you at every single step.
+                                    In 5 seconds, a Mobile Web Visitor Decides to Stay or Leave! Mobile Web Traffic is Task-Oriented & Buys More Often, therefore, to lure them a high-performance mobile website is what you will need to cash in! Get a Responsive Website that presents optimal viewing experience across a range of digital media platforms, and who could be better than us to do it for you? If you think a stunning, fully-loaded Desktop Website is good enough as a lead generation tool, there are reasons to rethink. “A simple and highly functional mobile website by us can return you the opportunity for conversions that you might have missed!”
 
-                              </p>
-                              {/* <h3 className="mt-40">Requirements</h3>
+                                </p>
+                                {/* <h3 className="mt-40">Requirements</h3>
                               <ul className="list-style-two mb-45">
                                   <li>
                                       DevTools Debugging Tips And Shortcuts (Chrome, Firefox,
@@ -441,32 +441,32 @@ const websiteDesigning= () => {
                                       </div>
                                   </div>
                               </div> */}
-                          </div>
-                      </div>
-                      <div className="col-lg-6">
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
 
-                          <h3 className="mt-40">Benefits Of Our Website Designing Services:-</h3>
-                          <ul className="list-style-two mb-45">
+                            <h3 className="mt-40">Benefits Of Our Website Designing Services:-</h3>
+                            <ul className="list-style-two mb-45">
 
-                              {
-                                  tasks.map((item) => (
-                                      <li>
-                                          {item}
-                                      </li>
-                                  ))
-                              }
-                              <li>
-                                  Free Maintenance.
-                              </li>
-                              <li>
-                              No Cost For Webspace & Hosting .
-                              </li>
-                              <li>
-                              Cost-Effective Option To Build A Website With Less Pages.
-                              </li>
-                          </ul>
+                                {
+                                    tasks.map((item) => (
+                                        <li>
+                                            {item}
+                                        </li>
+                                    ))
+                                }
+                                <li>
+                                    Free Maintenance.
+                                </li>
+                                <li>
+                                    No Cost For Webspace & Hosting .
+                                </li>
+                                <li>
+                                    Cost-Effective Option To Build A Website With Less Pages.
+                                </li>
+                            </ul>
 
-                          {/* <div className="course-sidebar rmt-75">
+                            {/* <div className="course-sidebar rmt-75">
                               <div className="widget widget-course-details wow fadeInUp delay-0-2s">
                                   <div className="widget-video">
                                       <img
@@ -662,13 +662,13 @@ const websiteDesigning= () => {
                                   </ul>
                               </div>
                           </div> */}
-                      </div>
-                  </div>
-              </div>
-          </section>
-          {/* Course Details End */}
-          {/* Recent Coach Start */}
-          {/* <section className="coach-section-two rel z-1 pt-120 rpt-90 pb-130 rpb-100">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* Course Details End */}
+            {/* Recent Coach Start */}
+            {/* <section className="coach-section-two rel z-1 pt-120 rpt-90 pb-130 rpb-100">
               <div className="container">
                   <div className="row justify-content-center">
                       <div className="col-xl-6 col-lg-7 col-md-8">
@@ -934,8 +934,8 @@ const websiteDesigning= () => {
                   </Slider>
               </div>
           </section> */}
-      </Layout>
-  )
+        </Layout>
+    )
 }
 
 export default websiteDesigning

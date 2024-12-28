@@ -40,7 +40,7 @@ const SoftwareDevelopment = () => {
                                 <div className="course-header">
                                     <span className="category">Software Development</span>
                                     <img src="assets/images/shapes/line-shape.png" alt="Line" />
-                                    <span className="off">30% off</span>
+                                    {/* <span className="off">30% off</span> */}
                                     <div className="ratting">
                                         <i className="fas fa-star" />
                                         <i className="fas fa-star" />
@@ -77,7 +77,7 @@ const SoftwareDevelopment = () => {
                                 <p>
                                     Quality-centered and adherent to mature software development practices, Apex Path provides application development services to startups, software companies, and enterprises across 30+ industries. We are ready to offer end-to-end development that covers everything from business analysis to software delivery and support, help modernize your legacy software, or augment your team with our IT experts at any stage of SDLC.
                                 </p>
-                                
+
                             </div>
                         </div>
                         <div className="col-lg-6">

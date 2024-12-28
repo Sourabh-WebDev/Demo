@@ -34,7 +34,7 @@ const affiliatemarketing = () => {
                                 <div className="course-header">
                                     <span className="category">Affiliate Marketing</span>
                                     <img src="assets/images/shapes/line-shape.png" alt="Line" />
-                                    <span className="off">30% off</span>
+                                    {/* <span className="off">30% off</span> */}
                                     <div className="ratting">
                                         <i className="fas fa-star" />
                                         <i className="fas fa-star" />

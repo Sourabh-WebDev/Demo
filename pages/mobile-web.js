@@ -35,7 +35,7 @@ const mobileweb = () => {
                                 <div className="course-header">
                                     <span className="category">Mobile Web Design</span>
                                     <img src="assets/images/shapes/line-shape.png" alt="Line" />
-                                    <span className="off">30% off</span>
+                                    {/* <span className="off">30% off</span> */}
                                     <div className="ratting">
                                         <i className="fas fa-star" />
                                         <i className="fas fa-star" />
@@ -69,11 +69,11 @@ const mobileweb = () => {
                                     />
                                 </div>
                                 <p>
-                                    Mobile web traffic, at 52%, has surpassed the 43% web traffic coming from desktops and laptops. 
-                                    In addition to that, mobile websites are also ranked higher by search engines and appear on top of search engine result pages. 
+                                    Mobile web traffic, at 52%, has surpassed the 43% web traffic coming from desktops and laptops.
+                                    In addition to that, mobile websites are also ranked higher by search engines and appear on top of search engine result pages.
                                     The Accelerated Mobile Pages (AMP) by Google also lead to ten times more traffic and double the time spent. Therefore,
-                                     it is no surprise to see businesses leveraging this growing inclination towards mobile phones and taking mobile web design services to make their sites load quickly on mobile devices and effectively fit into the mobile screen frames.
-                                      Our mobile web design services help you get a mobile website that not just reflects your business but is also simple, intuitive, quick-to-load, and centered on mobile users.
+                                    it is no surprise to see businesses leveraging this growing inclination towards mobile phones and taking mobile web design services to make their sites load quickly on mobile devices and effectively fit into the mobile screen frames.
+                                    Our mobile web design services help you get a mobile website that not just reflects your business but is also simple, intuitive, quick-to-load, and centered on mobile users.
                                 </p>
 
 
@@ -449,13 +449,13 @@ const mobileweb = () => {
                                     ))
                                 }
                                 <li>
-                                The number of users who access The Internet on digital mobile devices constitutes a big target market, and to tap it you need a Mobile-friendly Website.
+                                    The number of users who access The Internet on digital mobile devices constitutes a big target market, and to tap it you need a Mobile-friendly Website.
                                 </li>
                                 <li>
-                                Cost-effective way to start your marketing strategy.
+                                    Cost-effective way to start your marketing strategy.
                                 </li>
                                 <li>
-                                Consumers are Spending More Time On Mobile Research.
+                                    Consumers are Spending More Time On Mobile Research.
                                 </li>
                             </ul>
 

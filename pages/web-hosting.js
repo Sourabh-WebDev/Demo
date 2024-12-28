@@ -31,13 +31,13 @@ const webhosting = () => {
         'Uploading of shopping feed in the Merchant Center account',
         'Shopping Campaign',
         ' Frequent Upgrades '
-       
+
     ];
 
 
     return (
         <Layout>
-            <PageBanner pageName={"Web Hosting"} img={"https://kinsta.com/wp-content/uploads/2021/11/what-is-web-hosting-1-1024x512.jpg "}/>
+            <PageBanner pageName={"Web Hosting"} img={"https://kinsta.com/wp-content/uploads/2021/11/what-is-web-hosting-1-1024x512.jpg "} />
             <section className="course-details-area pt-130 rpt-100">
                 <div className="container">
                     <div className="row large-gap">
@@ -46,7 +46,7 @@ const webhosting = () => {
                                 <div className="course-header">
                                     <span className="category">Web Hosting</span>
                                     <img src="assets/images/shapes/line-shape.png" alt="Line" />
-                                    <span className="off">30% off</span>
+                                    {/* <span className="off">30% off</span> */}
                                     <div className="ratting">
                                         <i className="fas fa-star" />
                                         <i className="fas fa-star" />
@@ -81,12 +81,12 @@ const webhosting = () => {
                                 </div>
                                 <h2>Web Hosting: For Hosting Your Domain In The World of Web</h2>
                                 <p>
-                                You all can subscribe to our reseller hosting packages even for 1-month term. Therefore, you are not required to sign up for a long time. You can also block your funds till the time you are sure that the service and support provided to you is of supreme quality.
-                                The first and foremost step for a company that wishes to have a web presence is to sign up with a Web Hosting company.
-                                It is a mode through which companies or individuals launch their website on www i.e. World Wide Web. With a huge data storage, 24x7 security monitoring, and easy-to-use control panels, WeblinkIndia.Net offers the best web hosting services.
-                                 Our company is not just counted among the most trusted web hosting companies but also ranked among the top 10 web hosting providers. 
-                                 WeblinkIndia, with its powerful yet cheap web hosting, offers a quick and effective web hosting solution to businesses that want to make their place in the World Wide Web. Our web hosting services minimize the downtime for your website and provide complete security in the digital ecosystem. 
-                                 With our thorough assistance and the efficiency of our web hosting sites, we ensure that our clients are presented with following features-
+                                    You all can subscribe to our reseller hosting packages even for 1-month term. Therefore, you are not required to sign up for a long time. You can also block your funds till the time you are sure that the service and support provided to you is of supreme quality.
+                                    The first and foremost step for a company that wishes to have a web presence is to sign up with a Web Hosting company.
+                                    It is a mode through which companies or individuals launch their website on www i.e. World Wide Web. With a huge data storage, 24x7 security monitoring, and easy-to-use control panels, WeblinkIndia.Net offers the best web hosting services.
+                                    Our company is not just counted among the most trusted web hosting companies but also ranked among the top 10 web hosting providers.
+                                    WeblinkIndia, with its powerful yet cheap web hosting, offers a quick and effective web hosting solution to businesses that want to make their place in the World Wide Web. Our web hosting services minimize the downtime for your website and provide complete security in the digital ecosystem.
+                                    With our thorough assistance and the efficiency of our web hosting sites, we ensure that our clients are presented with following features-
                                 </p>
                                 {/* <h3 className="mt-40">Requirements</h3>
                                 <ul className="list-style-two mb-45">

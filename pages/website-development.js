@@ -43,7 +43,7 @@ const websiteDevelopment = () => {
                                 <div className="course-header">
                                     <span className="category">Website Development</span>
                                     <img src="assets/images/shapes/line-shape.png" alt="Line" />
-                                    <span className="off">30% off</span>
+                                    {/* <span className="off">30% off</span> */}
                                     <div className="ratting">
                                         <i className="fas fa-star" />
                                         <i className="fas fa-star" />
@@ -84,7 +84,7 @@ const websiteDevelopment = () => {
 
                                 </p>
 
-                              
+
                                 {/* <h3 className="mt-40">Requirements</h3>
                                 <ul className="list-style-two mb-45">
                                     <li>
@@ -469,7 +469,7 @@ const websiteDevelopment = () => {
                                 </li>
                             </ul>
 
-                          
+
 
                             {/* <div className="course-sidebar rmt-75">
                                 <div className="widget widget-course-details wow fadeInUp delay-0-2s">

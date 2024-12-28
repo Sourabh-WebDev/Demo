@@ -7,36 +7,36 @@ import WellernAccordion from "../src/components/WellernAccordion";
 import Layout from "../src/layout/Layout";
 
 const appdevelopment = () => {
-    const [active, setActive] = useState(`collapse1`);
-    const onClick = (value) => {
-      console.log(value);
-      setActive(value === active ? "" : value);
-    };
-  
-    return (
-      <Layout>
-        <PageBanner pageName={"App Development"}  img={"https://img.freepik.com/premium-photo/designers-create-user-interface-mobile-phones_8119-2674.jpg?w=740"} />
-        <section className="course-details-area pt-130 rpt-100">
-          <div className="container">
-            <div className="row large-gap">
-              <div className="col-lg-8">
-                <div className="course-details-content">
-                  <div className="course-header">
-                    <span className="category">App Development</span>
-                    <img src="assets/images/shapes/line-shape.png" alt="Line" />
-                    <span className="off">30% off</span>
-                    <div className="ratting">
-                      <i className="fas fa-star" />
-                      <i className="fas fa-star" />
-                      <i className="fas fa-star" />
-                      <i className="fas fa-star" />
-                      <i className="fas fa-star" />
-                      <span>(50)</span>
-                    </div>
+  const [active, setActive] = useState(`collapse1`);
+  const onClick = (value) => {
+    console.log(value);
+    setActive(value === active ? "" : value);
+  };
+
+  return (
+    <Layout>
+      <PageBanner pageName={"App Development"} img={"https://img.freepik.com/premium-photo/designers-create-user-interface-mobile-phones_8119-2674.jpg?w=740"} />
+      <section className="course-details-area pt-130 rpt-100">
+        <div className="container">
+          <div className="row large-gap">
+            <div className="col-lg-8">
+              <div className="course-details-content">
+                <div className="course-header">
+                  <span className="category">App Development</span>
+                  <img src="assets/images/shapes/line-shape.png" alt="Line" />
+                  {/* <span className="off">30% off</span> */}
+                  <div className="ratting">
+                    <i className="fas fa-star" />
+                    <i className="fas fa-star" />
+                    <i className="fas fa-star" />
+                    <i className="fas fa-star" />
+                    <i className="fas fa-star" />
+                    <span>(50)</span>
                   </div>
-                  <h2>What we do in MOBILE APPS Services
-                  </h2>
-                  {/* <ul className="author-date-enroll">
+                </div>
+                <h2>What we do in MOBILE APPS Services
+                </h2>
+                {/* <ul className="author-date-enroll">
                     <li>
                       <img
                         src="assets/images/coachs/couse-author.jpg"
@@ -52,16 +52,16 @@ const appdevelopment = () => {
                       <i className="far fa-user" /> 255 Enrolled
                     </li>
                   </ul> */}
-                  <div className="image mb-35">
-  
-                    <img src="https://omsoftsolution.com//wp-content/uploads/2023/06/app-development-1.gif " alt="img" />
-  
-                    {/* <img
+                <div className="image mb-35">
+
+                  <img src="https://omsoftsolution.com//wp-content/uploads/2023/06/app-development-1.gif " alt="img" />
+
+                  {/* <img
                       src="assets/images/coachs/course-details.jpg"
                       alt="Course Details"
                     /> */}
-                  </div>
-                  {/* <p>
+                </div>
+                {/* <p>
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                     accusantium doloremque laudantium totam rem aperiam, eaque
                     ipsa quae ab illo inventore veritatis et quasi architecto
@@ -78,8 +78,8 @@ const appdevelopment = () => {
                     molestiae consequatur vel illum qui dolorem eum fugiat quo
                     voluptas nulla pariatur
                   </p> */}
-                  {/* <h3 className="mt-40">Requirements</h3> */}
-                  {/* <ul className="list-style-two mb-45">
+                {/* <h3 className="mt-40">Requirements</h3> */}
+                {/* <ul className="list-style-two mb-45">
                     <li>
                       DevTools Debugging Tips And Shortcuts (Chrome, Firefox,
                       Edge)
@@ -92,8 +92,8 @@ const appdevelopment = () => {
                       A Smashing Guide To The World Of Search Engine Optimization
                     </li>
                   </ul> */}
-                  {/* <h3>Target Audience</h3> */}
-                  {/* <ul className="list-style-two mb-45">
+                {/* <h3>Target Audience</h3> */}
+                {/* <ul className="list-style-two mb-45">
                     <li>Any Job Holders, Students</li>
                     <li>Corporate Trainer</li>
                     <li>Any Job Holders, Students</li>
@@ -104,8 +104,8 @@ const appdevelopment = () => {
                     <li>A Smashing Guide To The World Of Search Engine Optimization
                     </li>
                   </ul> */}
-  
-                  {/* <Accordion
+
+                {/* <Accordion
                     className="faq-accordion pt-10 pb-50 wow fadeInUp delay-0-2s"
                     id="course-faq"
                     defaultActiveKey="collapse1"
@@ -279,7 +279,7 @@ const appdevelopment = () => {
                       </ul>
                     </WellernAccordion>
                   </Accordion> */}
-                  {/* <div className="course-instructor pt-10 pb-55 wow fadeInUp delay-0-2s">
+                {/* <div className="course-instructor pt-10 pb-55 wow fadeInUp delay-0-2s">
                     <div className="row align-items-center">
                       <div className="col-sm-5">
                         <div className="instructor-image">
@@ -334,22 +334,22 @@ const appdevelopment = () => {
                       </div>
                     </div>
                   </div> */}
-                  <h3>Android App Development: Where Innovation Meets Technology</h3>
-                  
-                  <p>
-                    An android app with killer UI/UX and powerful functionality is the tool that can effectively target the growing mobile user base. To stand out from the 3.8 million android app, one needs to consult an android developer that brings together years of experience, expertise and a perfect blend of innovation and technology to the table for android application development. WeblinkIndia, a top android app development company, promises all this and much more with its android app development services. Our years of experience and expertise in the field of app development enable us to bring your app idea to life.
-                    Android software development is the process by which new applications are created for devices running the Android operating system. Google states that “Android apps can be written using Kotlin, Java, and C++ languages” using the Android software development kit, while using other languages is also possible.
-                  </p>
-                  <ul className="list-style-two mb-45">
-                    <li> Mobile Apps</li>
-                    <li>Mobile application development</li>
-                    <li> Android applications development</li>
-                    <li>Mobile games development</li>
-                    <li>GUI Design With XML</li>
-                    <li> IOS, Windows and Blackberry.</li>
-                  </ul>
-  
-                  {/* <div className="student-feedback pt-10 wow fadeInUp delay-0-2s">
+                <h3>Android App Development: Where Innovation Meets Technology</h3>
+
+                <p>
+                  An android app with killer UI/UX and powerful functionality is the tool that can effectively target the growing mobile user base. To stand out from the 3.8 million android app, one needs to consult an android developer that brings together years of experience, expertise and a perfect blend of innovation and technology to the table for android application development. WeblinkIndia, a top android app development company, promises all this and much more with its android app development services. Our years of experience and expertise in the field of app development enable us to bring your app idea to life.
+                  Android software development is the process by which new applications are created for devices running the Android operating system. Google states that “Android apps can be written using Kotlin, Java, and C++ languages” using the Android software development kit, while using other languages is also possible.
+                </p>
+                <ul className="list-style-two mb-45">
+                  <li> Mobile Apps</li>
+                  <li>Mobile application development</li>
+                  <li> Android applications development</li>
+                  <li>Mobile games development</li>
+                  <li>GUI Design With XML</li>
+                  <li> IOS, Windows and Blackberry.</li>
+                </ul>
+
+                {/* <div className="student-feedback pt-10 wow fadeInUp delay-0-2s">
                     <div className="row">
                       <div className="col-sm-5">
                         <div className="student-average-feedback bg-green text-center text-white">
@@ -454,25 +454,25 @@ const appdevelopment = () => {
                       </div>
                     </div>
                   </div> */}
-                </div>
               </div>
-              <div className="col-lg-4 ">
-                <div className="course-sidebar rmt-75">
-  
-                  <h3 className="mt-40">Development Keys:-</h3>
+            </div>
+            <div className="col-lg-4 ">
+              <div className="course-sidebar rmt-75">
 
-                  <ul className="list-style-two mb-45">
-                    <li>Any Job Holders, Students</li>
-                    <li>Corporate Trainer</li>
-                    <li> DevTools Debugging Tips And Shortcuts (Chrome, Firefox, Edge)</li>
-                    <li>
-                      Front-End Performance Checklist 2021 (PDF, Apple Pages, MS Word)
-                    </li>
-                    <li>A Smashing Guide To The World Of Search Engine Optimization
-                    </li>
-                  </ul>
-  
-                  {/* <div className="widget widget-course-details wow fadeInUp delay-0-2s">
+                <h3 className="mt-40">Development Keys:-</h3>
+
+                <ul className="list-style-two mb-45">
+                  <li>Any Job Holders, Students</li>
+                  <li>Corporate Trainer</li>
+                  <li> DevTools Debugging Tips And Shortcuts (Chrome, Firefox, Edge)</li>
+                  <li>
+                    Front-End Performance Checklist 2021 (PDF, Apple Pages, MS Word)
+                  </li>
+                  <li>A Smashing Guide To The World Of Search Engine Optimization
+                  </li>
+                </ul>
+
+                {/* <div className="widget widget-course-details wow fadeInUp delay-0-2s">
                     <div className="widget-video">
                       <img
                         src="assets/images/widgets/course-details.jpg"
@@ -542,7 +542,7 @@ const appdevelopment = () => {
                       </Link>
                     </div>
                   </div> */}
-                  {/* <div className="widget widget-menu wow fadeInUp delay-0-2s">
+                {/* <div className="widget widget-menu wow fadeInUp delay-0-2s">
                     <h4 className="widget-title">Category</h4>
                     <ul>
                       <li>
@@ -589,7 +589,7 @@ const appdevelopment = () => {
                       </li>
                     </ul>
                   </div> */}
-                  {/* <div className="widget widget-recent-courses wow fadeInUp delay-0-2s">
+                {/* <div className="widget widget-recent-courses wow fadeInUp delay-0-2s">
                     <h4 className="widget-title">Recent Courses</h4>
                     <ul>
                       <li>
@@ -666,15 +666,15 @@ const appdevelopment = () => {
                       </li>
                     </ul>
                   </div> */}
-                </div>
               </div>
             </div>
           </div>
-        </section>
-        {/* Course Details End */}
-        {/* Recent Coach Start */}
-        <section className="coach-section-two rel z-1 pt-120 rpt-90 pb-130 rpb-100">
-          {/* <div className="container">
+        </div>
+      </section>
+      {/* Course Details End */}
+      {/* Recent Coach Start */}
+      <section className="coach-section-two rel z-1 pt-120 rpt-90 pb-130 rpb-100">
+        {/* <div className="container">
             <div className="row justify-content-center">
               <div className="col-xl-6 col-lg-7 col-md-8">
                 <div className="section-title text-center mb-45">
@@ -938,9 +938,9 @@ const appdevelopment = () => {
               </div>
             </Slider>
           </div> */}
-        </section>
-      </Layout>
-    );
-  };
+      </section>
+    </Layout>
+  );
+};
 
 export default appdevelopment

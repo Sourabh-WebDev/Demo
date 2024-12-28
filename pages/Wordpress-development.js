@@ -21,9 +21,9 @@ const Wordpressdevelopment = () => {
 
     ];
 
-  return (
+    return (
 
-    <Layout>
+        <Layout>
             <PageBanner pageName={"Wordpress Development"} img={"https://tutorialcrawler.com/wp-content/uploads/2020/06/Wordpress.jpg"} />
             <section className="course-details-area pt-130 rpt-100">
                 <div className="container">
@@ -33,7 +33,7 @@ const Wordpressdevelopment = () => {
                                 <div className="course-header">
                                     <span className="category">wordpress Development</span>
                                     <img src="assets/images/shapes/line-shape.png" alt="Line" />
-                                    <span className="off">30% off</span>
+                                    {/* <span className="off">30% off</span> */}
                                     <div className="ratting">
                                         <i className="fas fa-star" />
                                         <i className="fas fa-star" />
@@ -74,7 +74,7 @@ const Wordpressdevelopment = () => {
 
                                 </p>
 
-                              
+
                                 {/* <h3 className="mt-40">Requirements</h3>
                                 <ul className="list-style-two mb-45">
                                     <li>
@@ -451,13 +451,13 @@ const Wordpressdevelopment = () => {
 
                                 </li>
                                 <li>
-                                WordPress is a website-building platform that requires little to no coding experience for the average user. 
+                                    WordPress is a website-building platform that requires little to no coding experience for the average user.
                                 </li>
                                 <li>
-                                WordPress is a content management system (CMS) that allows you to host and build websites                                </li>
+                                    WordPress is a content management system (CMS) that allows you to host and build websites                                </li>
                             </ul>
 
-                          
+
 
                             {/* <div className="course-sidebar rmt-75">
                                 <div className="widget widget-course-details wow fadeInUp delay-0-2s">
@@ -928,7 +928,7 @@ const Wordpressdevelopment = () => {
                 </div>
             </section> */}
         </Layout>
-  )
+    )
 }
 
 export default Wordpressdevelopment

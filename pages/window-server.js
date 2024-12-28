@@ -11,7 +11,7 @@ const windowserver = () => {
     };
 
     const tasks = [
-        
+
         ' Show up where shoppers are and increase site traffic and sales',
         'Support For MS, VB, MS Access And MS SQL',
         'Support For Microsoft Web Development Tools',
@@ -34,7 +34,7 @@ const windowserver = () => {
                                 <div className="course-header">
                                     <span className="category">Window Dedicated Server</span>
                                     <img src="assets/images/shapes/line-shape.png" alt="Line" />
-                                    <span className="off">30% off</span>
+                                    {/* <span className="off">30% off</span> */}
                                     <div className="ratting">
                                         <i className="fas fa-star" />
                                         <i className="fas fa-star" />
@@ -451,10 +451,10 @@ const windowserver = () => {
                                     Text editors, such as Notepad or TextEdit, where content and HTML markup are manipulated directly within the editor program
                                 </li>
                                 <li>
-                                We guarantee our clients 99.9% network uptime with our IP network powered by high capacity routers and switches.
+                                    We guarantee our clients 99.9% network uptime with our IP network powered by high capacity routers and switches.
                                 </li>
                                 <li>
-                                 You get an easy to use cPanel DNS manager to host a large number of DNS zones, records, and domain names.                                </li>
+                                    You get an easy to use cPanel DNS manager to host a large number of DNS zones, records, and domain names.                                </li>
                             </ul>
 
 

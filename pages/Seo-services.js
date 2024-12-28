@@ -21,9 +21,9 @@ const Seoservices = () => {
 
     ];
 
-  return (
+    return (
 
-    <Layout>
+        <Layout>
             <PageBanner pageName={"Search Engine Optimization"} img={"https://lform.com/cms/resources/media/2021/01/custom-web-development-app-1184x694.jpg"} />
             <section className="course-details-area pt-130 rpt-100">
                 <div className="container">
@@ -33,7 +33,7 @@ const Seoservices = () => {
                                 <div className="course-header">
                                     <span className="category">Search Engine Optimization</span>
                                     <img src="assets/images/shapes/line-shape.png" alt="Line" />
-                                    <span className="off">30% off</span>
+                                    {/* <span className="off">30% off</span> */}
                                     <div className="ratting">
                                         <i className="fas fa-star" />
                                         <i className="fas fa-star" />
@@ -67,12 +67,12 @@ const Seoservices = () => {
                                     />
                                 </div>
                                 <p>
-                                In a digital ecosystem where every business is competing to rank on the first page of Google, search engine optimization is the success mantra to mark your existence. Any page that is not ranked on the first search engine result page is considered non-existent and lost amidst million flop websites. With search engine optimization, you not only get to rank on the top page for your keyword but also enjoy higher visibility that drives more traffic. WeblinkIndia, a leading 
-                                correct the imperfections and prepare the website to cater the requirements of the users as well as search engines. This tiring process covers the improvements like SEO tagging, internal linking, content optimization etc.
-                                Designed by Microsoft, Windows Server is a group of operating systems to support enterprises and small and medium-sized businesses with data storage, communications, and applications.
+                                    In a digital ecosystem where every business is competing to rank on the first page of Google, search engine optimization is the success mantra to mark your existence. Any page that is not ranked on the first search engine result page is considered non-existent and lost amidst million flop websites. With search engine optimization, you not only get to rank on the top page for your keyword but also enjoy higher visibility that drives more traffic. WeblinkIndia, a leading
+                                    correct the imperfections and prepare the website to cater the requirements of the users as well as search engines. This tiring process covers the improvements like SEO tagging, internal linking, content optimization etc.
+                                    Designed by Microsoft, Windows Server is a group of operating systems to support enterprises and small and medium-sized businesses with data storage, communications, and applications.
                                 </p>
 
-                              
+
                                 {/* <h3 className="mt-40">Requirements</h3>
                                 <ul className="list-style-two mb-45">
                                     <li>
@@ -445,13 +445,13 @@ const Seoservices = () => {
                                     ))
                                 }
                                 <li>
-                                A DNS server is a computer server that contains a database of public IP addresses and their associated hostnames
+                                    A DNS server is a computer server that contains a database of public IP addresses and their associated hostnames
                                 </li>
                                 <li>
-                                sharing services with multiple users and providing administrative control over storage, applications, and corporate networks.
+                                    sharing services with multiple users and providing administrative control over storage, applications, and corporate networks.
                                 </li>
                                 <li>
-                                Microsoft Windows Server 2022 is the latest version of the popular server operating system developed by Microsoft.
+                                    Microsoft Windows Server 2022 is the latest version of the popular server operating system developed by Microsoft.
                                 </li>
                             </ul>
 
@@ -925,7 +925,7 @@ const Seoservices = () => {
             </section> */}
         </Layout>
 
-  )
+    )
 }
 
 export default Seoservices
