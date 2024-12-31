@@ -9901,7 +9901,7 @@ blockquote .blockquote-footer:before {
   -webkit-transform: translate(-50%);
   -ms-transform: translate(-50%);
   transform: translate(-50%);
-  background: #204ecf;
+  background: #fff;
 }
 .team-member-two .image .social-style-two a {
   color: white;

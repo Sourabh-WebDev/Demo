@@ -363,7 +363,19 @@ const Header1 = ({ navToggle, setNavToggle }) => (
               <div className="logo-outer d-lg-flex align-items-center">
                 <div className="logo">
                   <Link href="/">
-                    <a>
+                    <a className="notVisible">
+                      <img
+                        height={100}
+                        width={100}
+                        className="mt-2"
+                        src="assets/images/newlogos/ApexpathMainWhite.png"
+                        alt="Logo"
+                        title="Logo"
+                      />
+                    </a>
+                  </Link>
+                  <Link href="/">
+                    <a className="notVisibles d-none">
                       <img
                         height={100}
                         width={100}

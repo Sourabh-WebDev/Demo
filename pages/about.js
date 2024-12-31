@@ -94,7 +94,7 @@ const About = () => {
                     <Counter end={15} />
                   </span>
                   <span>Year of
-                  Experience</span>
+                    Experience</span>
                 </div>
               </div>
             </div>
@@ -192,9 +192,9 @@ const About = () => {
           <div className="row justify-content-center">
             <div className="col-lg-3 col-md-4 col-sm-6">
               <div className="team-member-two wow fadeInUp delay-0-2s">
-                <div className="image">
-                  <img src="assets/images/teams/team1.jpg" alt="Team Member" />
-                  <div className="social-style-two">
+                <div className="image bg-cyan-500 shadow-lg">
+                  <img height='360' width='270' src="assets/images/staffMember/Chandani.jpg" alt="Team Member" />
+                  {/* <div className="social-style-two">
                     <Link href="/contact">
                       <i className="fab fa-twitter" />
                     </Link>
@@ -207,19 +207,19 @@ const About = () => {
                     <Link href="/contact">
                       <i className="fab fa-pinterest-p" />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="member-description">
-                  <h4>David S. Wickman</h4>
-                  <span>Wed Designer</span>
+                  <h4>Chandni Srivastava</h4>
+                  <span>Frontend Developer</span>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6">
               <div className="team-member-two wow fadeInUp delay-0-4s">
                 <div className="image">
-                  <img src="assets/images/teams/team2.jpg" alt="Team Member" />
-                  <div className="social-style-two">
+                  <img height='360' width='270' src="assets/images/staffMember/Aditiya.jpeg" alt="Team Member" />
+                  {/* <div className="social-style-two">
                     <Link href="/contact">
                       <i className="fab fa-twitter" />
                     </Link>
@@ -232,19 +232,19 @@ const About = () => {
                     <Link href="/contact">
                       <i className="fab fa-pinterest-p" />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="member-description">
-                  <h4>Walter J. Drake</h4>
-                  <span>Wed Developer</span>
+                  <h4>Aditiya Bhakta</h4>
+                  <span>Junior Developer</span>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6">
               <div className="team-member-two wow fadeInUp delay-0-6s">
                 <div className="image">
-                  <img src="assets/images/teams/team3.jpg" alt="Team Member" />
-                  <div className="social-style-two">
+                  <img height='360' width='270' src="assets/images/staffMember/AnkitBackend.jpg" alt="Team Member" />
+                  {/* <div className="social-style-two">
                     <Link href="/contact">
                       <i className="fab fa-twitter" />
                     </Link>
@@ -257,19 +257,19 @@ const About = () => {
                     <Link href="/contact">
                       <i className="fab fa-pinterest-p" />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="member-description">
-                  <h4>Steven J. Voorhees</h4>
-                  <span>Wed Designer</span>
+                  <h4>Ankit Kumar</h4>
+                  <span>Backend Developer</span>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6">
               <div className="team-member-two wow fadeInUp delay-0-8s">
                 <div className="image">
-                  <img src="assets/images/teams/team4.jpg" alt="Team Member" />
-                  <div className="social-style-two">
+                  <img height='360' width='270' src="assets/images/staffMember/KamalFrontend.jpeg" alt="Team Member" />
+                  {/* <div className="social-style-two">
                     <Link href="/contact">
                       <i className="fab fa-twitter" />
                     </Link>
@@ -282,19 +282,19 @@ const About = () => {
                     <Link href="/contact">
                       <i className="fab fa-pinterest-p" />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="member-description">
-                  <h4>Herman C. Kennedy</h4>
-                  <span>Wed Designer</span>
+                  <h4>Kamal Nayan Rai</h4>
+                  <span>Software Engineer</span>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6">
               <div className="team-member-two wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/teams/team5.jpg" alt="Team Member" />
-                  <div className="social-style-two">
+                  <img height='360' width='270' src="assets/images/staffMember/SourabhFrontend.jpeg" alt="Team Member" />
+                  {/* <div className="social-style-two">
                     <Link href="/contact">
                       <i className="fab fa-twitter" />
                     </Link>
@@ -307,19 +307,19 @@ const About = () => {
                     <Link href="/contact">
                       <i className="fab fa-pinterest-p" />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="member-description">
-                  <h4>Nathan A. Browning</h4>
-                  <span>Business Consultant</span>
+                  <h4>Sourabh Verma</h4>
+                  <span>Frontend Developer</span>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6">
               <div className="team-member-two wow fadeInUp delay-0-4s">
                 <div className="image">
-                  <img src="assets/images/teams/team6.jpg" alt="Team Member" />
-                  <div className="social-style-two">
+                  <img height='360' width='270' src="assets/images/staffMember/Asif.jpeg" alt="Team Member" />
+                  {/* <div className="social-style-two">
                     <Link href="/contact">
                       <i className="fab fa-twitter" />
                     </Link>
@@ -332,19 +332,19 @@ const About = () => {
                     <Link href="/contact">
                       <i className="fab fa-pinterest-p" />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="member-description">
-                  <h4>Carmine M. Allen</h4>
-                  <span>Senior Manager</span>
+                  <h4>Asif Kumar</h4>
+                  <span>Frontend Developer</span>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6">
               <div className="team-member-two wow fadeInUp delay-0-6s">
                 <div className="image">
-                  <img src="assets/images/teams/team7.jpg" alt="Team Member" />
-                  <div className="social-style-two">
+                  <img height='360' width='270' src="assets/images/staffMember/SurajBackend.jpeg" alt="Team Member" />
+                  {/* <div className="social-style-two">
                     <Link href="/contact">
                       <i className="fab fa-twitter" />
                     </Link>
@@ -357,19 +357,19 @@ const About = () => {
                     <Link href="/contact">
                       <i className="fab fa-pinterest-p" />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="member-description">
-                  <h4>Rubin R. Nelligan</h4>
-                  <span>Wed Designer</span>
+                  <h4>Suraj Singh</h4>
+                  <span>Backend Developer</span>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6">
               <div className="team-member-two wow fadeInUp delay-0-8s">
-                <div className="image">
-                  <img src="assets/images/teams/team8.jpg" alt="Team Member" />
-                  <div className="social-style-two">
+                <div className="image bg-cyan-500 shadow-lg">
+                  <img height='360' width='270' src="assets/images/staffMember/Shani.png" alt="Team Member" />
+                  {/* <div className="social-style-two">
                     <Link href="/contact">
                       <i className="fab fa-twitter" />
                     </Link>
@@ -382,11 +382,11 @@ const About = () => {
                     <Link href="/contact">
                       <i className="fab fa-pinterest-p" />
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="member-description">
-                  <h4>Jimmy T. Briley</h4>
-                  <span>Programmer</span>
+                  <h4>Shani Gautam</h4>
+                  <span>Backend Developer</span>
                 </div>
               </div>
             </div>
@@ -441,7 +441,7 @@ const About = () => {
             <div className="testimonial-item-two">
               <div className="testimonial-author-two">
                 <img
-                  src="assets/images/testimonials/testimonial-two2.jpg"
+                  src="assets/images/staffMember/Director.jpeg"
                   alt="Author"
                 />
               </div>

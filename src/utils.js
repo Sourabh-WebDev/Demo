@@ -27,10 +27,31 @@ const stickyNav_ = () => {
       }
     }
   }
+  const addremove = document.querySelectorAll(".notVisible");
+  for (let i = 0; i < addremove.length; i++) {
+    const sticky = addremove[i];
+    if (sticky) {
+      if (offset > 10) {
+        sticky.classList.add("d-none");
+      } else {
+        sticky.classList.remove("d-none");
+      }
+    }
+  }
+  const addremoveTwo = document.querySelectorAll(".notVisibles");
+  for (let i = 0; i < addremoveTwo.length; i++) {
+    const sticky = addremoveTwo[i];
+    if (sticky) {
+      if (offset > 10) {
+        sticky.classList.add("d-block");
+      } else {
+        sticky.classList.remove("d-block");
+      }
+    }
+  }
 };
 export const stickyNav = (stickyClass) =>
   window.addEventListener("scroll", stickyNav_);
-
 // Scroll top
 export const scrollTopFun = () => {
   let scrollUp = document.getElementById("scroll-top"),
