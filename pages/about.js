@@ -211,7 +211,7 @@ const About = () => {
                 </div>
                 <div className="member-description">
                   <h4>Chandni Srivastava</h4>
-                  <span>Frontend Developer</span>
+                  <span>Software Engineer</span>
                 </div>
               </div>
             </div>
@@ -235,8 +235,8 @@ const About = () => {
                   </div> */}
                 </div>
                 <div className="member-description">
-                  <h4>Aditiya Bhakta</h4>
-                  <span>Junior Developer</span>
+                  <h4>Aditya Bhakta</h4>
+                  <span>Junior Software Engineer</span>
                 </div>
               </div>
             </div>
@@ -260,8 +260,8 @@ const About = () => {
                   </div> */}
                 </div>
                 <div className="member-description">
-                  <h4>Ankit Kumar</h4>
-                  <span>Backend Developer</span>
+                  <h4>Ankit kushwaha</h4>
+                  <span>Junior Software Engineer</span>
                 </div>
               </div>
             </div>
@@ -311,7 +311,7 @@ const About = () => {
                 </div>
                 <div className="member-description">
                   <h4>Sourabh Verma</h4>
-                  <span>Frontend Developer</span>
+                  <span>Software Engineer</span>
                 </div>
               </div>
             </div>
@@ -335,8 +335,8 @@ const About = () => {
                   </div> */}
                 </div>
                 <div className="member-description">
-                  <h4>Asif Kumar</h4>
-                  <span>Frontend Developer</span>
+                  <h4>Mohd. Asif </h4>
+                  <span>Software Engineer</span>
                 </div>
               </div>
             </div>
@@ -361,14 +361,14 @@ const About = () => {
                 </div>
                 <div className="member-description">
                   <h4>Suraj Singh</h4>
-                  <span>Backend Developer</span>
+                  <span>Software Engineer</span>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6">
               <div className="team-member-two wow fadeInUp delay-0-8s">
                 <div className="image bg-cyan-500 shadow-lg">
-                  <img height='360' width='270' src="assets/images/staffMember/Shani.png" alt="Team Member" />
+                  <img height='360' width='270' src="assets/images/staffMember/Shani.jpeg" alt="Team Member" />
                   {/* <div className="social-style-two">
                     <Link href="/contact">
                       <i className="fab fa-twitter" />
@@ -386,7 +386,7 @@ const About = () => {
                 </div>
                 <div className="member-description">
                   <h4>Shani Gautam</h4>
-                  <span>Backend Developer</span>
+                  <span>Junior Software Engineer</span>
                 </div>
               </div>
             </div>
